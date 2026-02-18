@@ -1,9 +1,9 @@
 // ============================================================
-//   SHIRAORI WHATSAPP BOT 
+//   SHIRAORI WHATSAPP BOT - main.js (FIXED VERSION)
 //   
 // ============================================================
 
-require('./config')  
+require('./config')  // Load global config
 
 const {
     default: makeWASocket,
@@ -104,13 +104,13 @@ const question = text => {
 async function startBot() {
     console.clear()
     console.log('\x1b[36m%s\x1b[0m', '\u256c' + '\u2550'.repeat(40) + '\u256c')
-    console.log('\x1b[36m%s\x1b[0m', '       NIA-AI WHATSAPP BOT v2.2 (FIXED)  ')
+    console.log('\x1b[36m%s\x1b[0m', '       ShiraoriBOT-V3  ')
     console.log('\x1b[36m%s\x1b[0m', '\u2569' + '\u2550'.repeat(40) + '\u2569')
     console.log('')
 
     global.authFile = 'session'
 
-    
+    // Load session - FIXED: no timeout wrapper yang bisa menyebabkan exit tiba-tiba
     console.log('\x1b[33m%s\x1b[0m', 'Loading session...')
     let state, saveCreds
     try {
@@ -127,7 +127,7 @@ async function startBot() {
         process.exit(1)
     }
 
- 
+    // Fetch WA version - FIXED: fallback tidak mematikan bot
     console.log('\x1b[33m%s\x1b[0m', 'Checking WhatsApp version...')
     let version = [2, 3000, 1015901307]
     try {
@@ -237,7 +237,7 @@ async function startBot() {
     process.removeAllListeners('uncaughtException')
     process.removeAllListeners('unhandledRejection')
 
-  
+    // Noise dari Baileys internal - diabaikan
     const ignoredErrors = [
         'Cannot destructure property', 'remoteJid', 'Closing open session',
         'Closing session', 'unhandledRejection', 'Connection Failure',
