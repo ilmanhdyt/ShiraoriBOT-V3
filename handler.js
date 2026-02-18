@@ -23,7 +23,7 @@ module.exports = {
             if (!m) return
             
             // Minimalist logging - only show command being used
-            if (m.text && m.text.startsWith('.')) {
+            if (m.text && typeof m.text === 'string' && m.text.startsWith('.')) {
                 const cmd = m.text.split(' ')[0]
                 console.log('\x1b[36m%s\x1b[0m', `→ Command: ${cmd}`)
             }
@@ -265,26 +265,39 @@ module.exports = {
             let usedPrefix
             let _user = global.db.data && global.db.data.users && global.db.data.users[m.sender]
 
-            // SIMPLE & WORKING OWNER CHECKER
-            let senderNumber = m.sender.replace(/[^0-9]/g, '')
+            //  emoji reaction
+            const react = async (emoji) => {
+                try {
+                    await this.sendMessage(m.chat, { react: { text: emoji, key: m.key } })
+                } catch (_) {}
+            }
+
+          
+          
+            let senderNumber = (m.sender || '').split('@')[0].split(':')[0]
+            let senderNumberStripped = (m.sender || '').replace(/[^0-9]/g, '')
             let ownerNumbers = global.owner.map(v => v.replace(/[^0-9]/g, ''))
+            let ownerFormatted = global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net')
             
-            // Check if sender number matches any owner number
-            let isROwner = ownerNumbers.includes(senderNumber)
+            let isROwner = ownerNumbers.includes(senderNumber) ||
+                           ownerNumbers.includes(senderNumberStripped) ||
+                           ownerFormatted.includes(m.sender) ||
+                           global.owner.includes(m.sender) ||
+                           global.owner.includes(senderNumber)
             let isOwner = isROwner || m.fromMe
             
-            // Mods and Prems checker
+            
             let modNumbers = global.mods.map(v => v.replace(/[^0-9]/g, ''))
             let isMods = isOwner || modNumbers.includes(senderNumber)
             
-            let premNumbers = global.prems.map(v => v.replace(/[^0-9]/g, ''))
+            let premNumbers = (global.prems || []).map(v => v.replace(/[^0-9]/g, ''))
             let isPrems = isROwner || premNumbers.includes(senderNumber)
             let groupMetadata = (m.isGroup ? (conn.chats[m.chat] || {}).metadata : {}) || {}
             let participants = (m.isGroup ? groupMetadata.participants : []) || []
             let user = (m.isGroup ? participants.find(u => conn.decodeJid(u.id) === m.sender) : {}) || {} // User Data
             let bot = (m.isGroup ? participants.find(u => conn.decodeJid(u.id) == this.user.jid) : {}) || {} // Your Data
-            let isAdmin = user && user.admin || false // Is User Admin?
-            let isBotAdmin = bot && bot.admin || false // Are you Admin?
+            let isAdmin = user && user.admin || false 
+            let isBotAdmin = bot && bot.admin || false 
             for (let name in global.plugins) {
                 let plugin = global.plugins[name]
                 if (!plugin) continue

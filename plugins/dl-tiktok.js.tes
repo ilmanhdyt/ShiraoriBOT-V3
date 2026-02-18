@@ -1,0 +1,233 @@
+// dl-tiktok.js - TikTok Downloader
+// Menggunakan axios yang sudah ada, tanpa package tambahan
+
+const axios = require('axios')
+const https = require('https')
+
+const client = axios.create({
+    timeout: 25000,
+    httpsAgent: new https.Agent({ rejectUnauthorized: false }),
+    headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/json, text/plain, */*',
+        'Accept-Language': 'id-ID,id;q=0.9,en-US;q=0.8',
+    }
+})
+
+// Resolve link pendek
+async function resolveUrl(url) {
+    if (!url.match(/vt\.tiktok\.com|vm\.tiktok\.com/)) return url
+    try {
+        const res = await client.get(url, { maxRedirects: 10 })
+        return res.request?.res?.responseUrl || url
+    } catch (e) {
+        return e?.request?.res?.responseUrl || url
+    }
+}
+
+// API 1: tikwm.com (POST form)
+async function apiTikwm(url) {
+    const res = await client.post('https://www.tikwm.com/api/',
+        `url=${encodeURIComponent(url)}&hd=1`,
+        { headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Referer': 'https://www.tikwm.com/' } }
+    )
+    if (res.data?.code !== 0) throw new Error(res.data?.msg || 'tikwm: code != 0')
+    const d = res.data.data
+    return {
+        videoUrl: d.hdplay ? 'https://www.tikwm.com' + d.hdplay : 'https://www.tikwm.com' + d.play,
+        audioUrl: d.music ? 'https://www.tikwm.com' + d.music : null,
+        author: d.author?.nickname || 'Unknown',
+        desc: d.title || '',
+        likes: (d.digg_count || 0).toLocaleString('id-ID'),
+        comments: (d.comment_count || 0).toLocaleString('id-ID'),
+        shares: (d.share_count || 0).toLocaleString('id-ID'),
+    }
+}
+
+// API 2: lovetik.com
+async function apiLovetik(url) {
+    const res = await client.post('https://lovetik.com/api/ajax/search',
+        new URLSearchParams({ query: url }),
+        { headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Referer': 'https://lovetik.com/' } }
+    )
+    if (!res.data?.links?.length) throw new Error('lovetik: no links')
+    const noWm = res.data.links.find(l => l.type === 'mp4_no_watermark' || l.a?.includes('No Watermark'))
+    const vid = noWm || res.data.links.find(l => l.type?.includes('mp4') || l.a?.includes('MP4'))
+    if (!vid?.v) throw new Error('lovetik: mp4 not found')
+    return {
+        videoUrl: vid.v,
+        audioUrl: res.data.links.find(l => l.type?.includes('mp3'))?.v || null,
+        author: res.data.author || 'Unknown',
+        desc: res.data.desc || '',
+        likes: '?', comments: '?', shares: '?'
+    }
+}
+
+// API 3: ssstik.io
+async function apiSsstik(url) {
+    const page = await client.get('https://ssstik.io/id')
+    const tt = page.data.match(/tt:\s*"([^"]+)"/)
+    if (!tt) throw new Error('ssstik: token not found')
+    
+    const res = await client.post('https://ssstik.io/abc?url=dl',
+        new URLSearchParams({ id: url, locale: 'id', tt: tt[1] }),
+        { headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Referer': 'https://ssstik.io/id', 'Cookie': page.headers['set-cookie']?.join('; ') || '' } }
+    )
+    
+    const links = [...res.data.matchAll(/href="(https:\/\/[^"]+)"[^>]*>\s*(?:Without watermark|Tanpa watermark)/gi)]
+    if (!links.length) {
+        const anyLink = res.data.match(/href="(https:\/\/tikcdn[^"]+\.mp4[^"]*)"/)
+        if (!anyLink) throw new Error('ssstik: no video link')
+        return { videoUrl: anyLink[1], audioUrl: null, author: 'Unknown', desc: '', likes: '?', comments: '?', shares: '?' }
+    }
+    return {
+        videoUrl: links[0][1],
+        audioUrl: null,
+        author: 'Unknown', desc: '',
+        likes: '?', comments: '?', shares: '?'
+    }
+}
+
+// API 4: tmate.cc
+async function apiTmate(url) {
+    const res = await client.post('https://tmate.cc/download',
+        new URLSearchParams({ url }),
+        { headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Referer': 'https://tmate.cc/' } }
+    )
+    if (!res.data?.data) throw new Error('tmate: no data')
+    const d = res.data.data
+    const videoUrl = d.play || d.hdplay || d.wmplay
+    if (!videoUrl) throw new Error('tmate: no video url')
+    return {
+        videoUrl,
+        audioUrl: d.music || null,
+        author: d.author?.nickname || 'Unknown',
+        desc: d.title || '',
+        likes: (d.digg_count || 0).toLocaleString('id-ID'),
+        comments: (d.comment_count || 0).toLocaleString('id-ID'),
+        shares: (d.share_count || 0).toLocaleString('id-ID'),
+    }
+}
+
+// API 5: savetik.net
+async function apiSavetik(url) {
+    const res = await client.post('https://savetik.net/api/ajaxSearch',
+        new URLSearchParams({ q: url, lang: 'id' }),
+        { headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Referer': 'https://savetik.net/' } }
+    )
+    if (res.data?.status !== 'ok') throw new Error('savetik: status not ok')
+    const html = res.data.data || ''
+    const noWm = html.match(/href="(https:\/\/[^"]+)"[^>]*>[^<]*[Tt]anpa [Ww]atermark/)
+    const anyMp4 = html.match(/href="(https:\/\/[^"]+\.mp4[^"]*)"/)
+    const link = noWm?.[1] || anyMp4?.[1]
+    if (!link) throw new Error('savetik: link not found')
+    return {
+        videoUrl: link,
+        audioUrl: null,
+        author: 'Unknown', desc: '',
+        likes: '?', comments: '?', shares: '?'
+    }
+}
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+    if (!text) {
+        return m.reply(
+            `🎵 *TikTok Downloader*\n\n` +
+            `Perintah:\n` +
+            `*${usedPrefix}tiktok* [link] — video tanpa watermark\n` +
+            `*${usedPrefix}tiktokmp3* [link] — audio saja\n\n` +
+            `Contoh:\n` +
+            `${usedPrefix}tiktok https://vt.tiktok.com/xxxxx`
+        )
+    }
+
+    if (!text.match(/tiktok\.com|vt\.tiktok\.com|vm\.tiktok\.com/i)) {
+        return m.reply('❌ URL tidak valid! Masukkan link TikTok yang benar.')
+    }
+
+    const isAudio = /mp3|audio/i.test(command)
+    await m.reply('⏳ Sedang mengambil data video...')
+
+    const resolvedUrl = await resolveUrl(text.trim())
+    console.log('[TikTok] URL:', resolvedUrl)
+
+    const apis = [
+        { name: 'tikwm',    fn: () => apiTikwm(resolvedUrl) },
+        { name: 'lovetik',  fn: () => apiLovetik(resolvedUrl) },
+        { name: 'ssstik',   fn: () => apiSsstik(resolvedUrl) },
+        { name: 'tmate',    fn: () => apiTmate(resolvedUrl) },
+        { name: 'savetik',  fn: () => apiSavetik(resolvedUrl) },
+    ]
+
+    let data = null
+    for (const api of apis) {
+        try {
+            console.log(`[TikTok] Mencoba ${api.name}...`)
+            data = await api.fn()
+            if (data?.videoUrl) {
+                console.log(`[TikTok] ✓ Berhasil via ${api.name}`)
+                break
+            }
+        } catch (e) {
+            console.log(`[TikTok] ${api.name} gagal: ${e.message}`)
+        }
+    }
+
+    if (!data?.videoUrl) {
+        return m.reply(
+            `❌ *Gagal mengunduh video TikTok*\n\n` +
+            `Semua server tidak tersedia saat ini.\n` +
+            `• Pastikan link valid dan video tidak private\n` +
+            `• Coba lagi beberapa menit lagi`
+        )
+    }
+
+    const caption =
+        `✅ *TikTok Downloaded*\n\n` +
+        `👤 *Author:* ${data.author}\n` +
+        (data.desc ? `📝 *Deskripsi:* ${data.desc.slice(0, 100)}${data.desc.length > 100 ? '...' : ''}\n` : '') +
+        `❤️ *Likes:* ${data.likes}\n` +
+        `💬 *Komentar:* ${data.comments}\n` +
+        `🔁 *Share:* ${data.shares}\n\n` +
+        `_Downloaded by ${global.namabot || 'NIA-AI BOT'}_`
+
+    try {
+        if (isAudio) {
+            if (!data.audioUrl) return m.reply('❌ Audio tidak tersedia untuk video ini.')
+            await m.reply('⏳ Mengirim audio...')
+            await conn.sendMessage(m.chat, {
+                audio: { url: data.audioUrl },
+                mimetype: 'audio/mpeg',
+                fileName: `tiktok_${data.author}.mp3`,
+                ptt: false
+            }, { quoted: m })
+            await m.reply(caption)
+        } else {
+            await m.reply('⏳ Mengirim video...')
+            await conn.sendMessage(m.chat, {
+                video: { url: data.videoUrl },
+                caption,
+                mimetype: 'video/mp4',
+                fileName: `tiktok_${data.author}.mp4`
+            }, { quoted: m })
+        }
+    } catch (e) {
+        console.log('[TikTok] Send error:', e.message)
+        await m.reply('❌ Gagal mengirim file. Video mungkin terlalu besar atau link expired.')
+    }
+}
+
+handler.help     = ['tiktok', 'tt', 'ttdl', 'tiktokmp3']
+handler.tags     = ['downloader']
+handler.command  = /^(tiktok|tt(dl)?|tiktokmp3|ttmp3)$/i
+handler.limit    = true
+handler.owner    = false
+handler.mods     = false
+handler.premium  = false
+handler.group    = false
+handler.private  = false
+handler.admin    = false
+handler.botAdmin = false
+handler.exp      = 5
+
+module.exports = handler

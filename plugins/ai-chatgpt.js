@@ -1,4 +1,4 @@
-/*
+
 const OpenAI = require('openai')
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
@@ -53,10 +53,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     }
 }
 
-handler.help = ['chatgpt', 'gpt', 'ai']
+handler.help = ['chatgpt', 'gpt']
 handler.tags = ['ai']
 handler.command = /^(chatgpt|gpt|ai)$/i
 handler.limit = true
 
 module.exports = handler
-*/

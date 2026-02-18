@@ -71,5 +71,5 @@ global.botOwnerMap = {
 handler.help = ['testowner']
 handler.tags = ['owner']
 handler.command = /^(testowner|debugowner2|ownertest)$/i
-
+handler.premium = true
 module.exports = handler

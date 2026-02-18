@@ -3,7 +3,7 @@
     "version": "2.0.0",
     "description": "WhatsApp Bot Using Library baileys - Updated Version",
     "depecrated": false,
-    "main": "index.js",
+    "main": "main.js",
     "type": "commonjs",
     "directories": {
         "lib": "lib",
@@ -11,13 +11,13 @@
         "plugins": "plugins"
     },
     "scripts": {
-        "start": "node index.js",
+        "start": "node main.js",
         "test": "node test.js",
-        "dev": "nodemon index.js",
+        "dev": "nodemon main.js",
         "quick": "node quick-start.js",
         "fix": "npm cache clean --force && rm -rf node_modules package-lock.json && npm install",
         "clean-install": "rm -rf node_modules package-lock.json && npm install",
-        "pairing": "node index.js --pairing-code"
+        "pairing": "node main.js --pairing-code"
     },
     "keywords": [
         "whatsapp-bot",
@@ -41,6 +41,7 @@
         "@bochilteam/scraper": "^4.2.4",
         "@google/generative-ai": "^0.21.0",
         "@hapi/boom": "^10.0.1",
+        "@napi-rs/canvas": "^0.1.93",
         "@whiskeysockets/baileys": "^6.7.7",
         "awesome-phonenumber": "^5.10.0",
         "axios": "^1.7.9",
@@ -53,6 +54,7 @@
         "g-i-s": "^2.1.6",
         "google-it": "^1.6.4",
         "human-readable": "^0.2.1",
+        "jimp": "^1.6.0",
         "jsdom": "^25.0.1",
         "libphonenumber-js": "^1.11.14",
         "lodash": "^4.17.21",

@@ -1,39 +1,29 @@
 @echo off
-title Nia-AI WhatsApp Bot
+title NIA-AI WhatsApp Bot
 color 0A
 
 echo.
-echo ========================================
-echo    NIA-AI WhatsApp Bot v2.0
-echo ========================================
+echo  ============================================
+echo   NIA-AI WHATSAPP BOT - Installer & Starter
+echo  ============================================
 echo.
 
-:: Check if node_modules exists
-if not exist "node_modules" (
-    echo [!] Dependencies not installed!
-    echo [*] Installing dependencies...
+:: Cek apakah node_modules ada
+if not exist "node_modules\" (
+    echo  [!] node_modules tidak ditemukan, install dependencies...
+    echo.
     call npm install
-    if errorlevel 1 (
-        echo.
-        echo [X] Failed to install dependencies!
-        echo [*] Please check your internet connection and try again.
-        pause
-        exit /b 1
-    )
     echo.
-    echo [√] Dependencies installed successfully!
+    echo  [+] Install selesai!
     echo.
 )
 
-:: Start the bot
-echo [*] Starting bot...
+:: Hapus session lama jika ada masalah
+:: Uncomment baris di bawah jika ingin scan QR ulang:
+:: rmdir /s /q session
+
+echo  [*] Menjalankan bot...
 echo.
-node index.js
+node main.js
 
-:: If bot crashes, show error and wait
-if errorlevel 1 (
-    echo.
-    echo [X] Bot stopped with error!
-    echo [*] Check the error message above.
-    pause
-)
+pause

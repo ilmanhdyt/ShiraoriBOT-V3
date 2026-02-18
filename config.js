@@ -1,11 +1,9 @@
 let fs = require('fs')
 
-// SOLUSI PALING SIMPLE: Masukkan KEDUA nomor ke dalam array owner
-// Nomor pribadi Anda (6281351047727) akan menjadi owner utama
-// Nomor bot (17435434841727270) juga dimasukkan agar bisa kontrol
 global.owner = [
     '6281351047727',      // Nomor WA pribadi Anda - OWNER UTAMA
-    '17435434841727270'   // Nomor bot - untuk kontrol dari bot sendiri
+    '174354348417270',    // 
+    '17435434841727270'   // 
 ]
 
 global.mods = [] // Want some help?
@@ -39,12 +37,12 @@ global.gemini_key = '' // Get from https://makersuite.google.com/app/apikey
 
 // Sticker WM
 global.stiker_wait = 'Stiker sedang dibuat'
-global.packname = 'MahamaruBOT Multi device'
+global.packname = 'ShiraoriBOT Multi device'
 global.author = 'Ilmanhdyt'
 global.namabot = 'ShiraoriBOT'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.wm = '© ShiraoriBOT-Md • Ilmanhdyt'
-global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
+global.media = 'https://pin.it/tDYzLKWVI'
 
 global.wait = '_*tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'

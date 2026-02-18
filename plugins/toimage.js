@@ -42,5 +42,4 @@ let handler = async (m, { conn }) => {
 handler.help = ['toimage', 'toimg']
 handler.tags = ['converter']
 handler.command = /^(toimage|toimg)$/i
-handler.owner = true
 module.exports = handler
