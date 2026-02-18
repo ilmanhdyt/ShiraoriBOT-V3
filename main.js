@@ -148,7 +148,7 @@ async function startBot() {
         logger: P({ level: 'silent' }),
         printQRInTerminal: false,
         mobile: useMobile,
-        browser: ['NIA-AI Bot', 'Safari', '3.0'],
+        browser: ['ShiraoriBOT-V3', 'Safari', '3.0'],
         auth: {
             creds: state.creds,
             keys: makeCacheableSignalKeyStore(state.keys, P({ level: 'silent' }))
