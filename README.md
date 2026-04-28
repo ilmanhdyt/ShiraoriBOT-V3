@@ -31,6 +31,8 @@
 
 ShiraoriBOT adalah **base / kerangka bot WhatsApp** yang dibangun menggunakan library [Baileys](https://github.com/WhiskeySockets/Baileys) (Multi-Device). Cocok digunakan sebagai titik awal untuk membangun bot WhatsApp kamu sendiri.
 
+[Coba Bot Nya](https://wa.me/62895803135347) 
+
 ---
 
 ## ✨ Fitur yang Tersedia (9 Fitur)
