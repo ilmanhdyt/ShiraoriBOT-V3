@@ -1,0 +1,34 @@
+{
+  "exp": 21318,
+  "registered": false,
+  "name": "",
+  "age": -1,
+  "regTime": -1,
+  "banned": false,
+  "warn": 0,
+  "level": 9,
+  "role": "😈 Greater Demon",
+  "autolevelup": true,
+  "pet": {
+    "id": "inferno_titan",
+    "name": "Inferno Titan",
+    "emoji": "🔥",
+    "role": "Leader Board Tier",
+    "atk": 210,
+    "def": 90,
+    "hp": 1450,
+    "skill": {
+      "name": "Titan Flame",
+      "effect": "burn",
+      "desc": "Membakar musuh, -55 HP/ronde",
+      "value": 55
+    },
+    "rarity": "mythic",
+    "hunger": 100,
+    "level": 1,
+    "exp": 0,
+    "maxHp": 1450,
+    "lastBattle": 0
+  },
+  "warning": 0
+}

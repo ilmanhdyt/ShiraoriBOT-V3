@@ -1,0 +1,55 @@
+{
+  "name": "shiraoribot-md",
+  "version": "3.0.0",
+  "description": "ShiraoriBOT-Md — WhatsApp Bot using atexovi-baileys",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "@hapi/boom": "latest",
+    "@whiskeysockets/baileys": "https://github.com/atex-ovi/atexovi-baileys.git",
+    "awesome-phonenumber": "^7.8.0",
+    "chalk": "^4.1.2",
+    "dotenv": "latest",
+    "file-type": "^16.5.4",
+    "fluent-ffmpeg": "latest",
+    "form-data": "latest",
+    "googleapis": "latest",
+    "got": "^11.8.6",
+    "jimp": "^1.6.1",
+    "jsbarcode": "latest",
+    "jsdom": "latest",
+    "lodash": "latest",
+    "moment-timezone": "latest",
+    "mongoose": "latest",
+    "node-cache": "latest",
+    "node-fetch": "^2.7.0",
+    "node-webpmux": "latest",
+    "pino": "latest",
+    "qrcode": "latest",
+    "sharp": "^0.34.5",
+    "steno": "^4.0.2",
+    "syntax-error": "latest",
+    "terminal-image": "^1.2.1",
+    "translate-google-api": "latest",
+    "url-regex-safe": "latest",
+    "wa-sticker-formatter": "latest",
+    "xmldom": "latest",
+    "yargs": "latest",
+    "yt-search": "^2.13.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "atexovi-baileys",
+    "multi-device"
+  ],
+  "author": "Ilmanhdyt",
+  "license": "MIT"
+}

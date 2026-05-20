@@ -1,0 +1,204 @@
+{
+  "limit": 9,
+  "afk": -1,
+  "afkReason": "",
+  "money": 5915140,
+  "healt": 100,
+  "potion": 10,
+  "streak": 1,
+  "petFood": 0,
+  "makananpet": 0,
+  "sampah": 0,
+  "kayu": 0,
+  "batu": 0,
+  "string": 0,
+  "emerald": 0,
+  "diamond": 0,
+  "gold": 0,
+  "iron": 0,
+  "common": 0,
+  "uncommon": 0,
+  "mythic": 0,
+  "legendary": 0,
+  "petCount": 0,
+  "kuda": 0,
+  "kudaexp": 0,
+  "kucing": 0,
+  "kucingexp": 0,
+  "rubah": 0,
+  "rubahexp": 0,
+  "anjing": 0,
+  "anjingexp": 0,
+  "kudalastfeed": 0,
+  "kucinglastfeed": 0,
+  "rubahlastfeed": 0,
+  "anjinglastfeed": 0,
+  "armor": 0,
+  "armordurability": 0,
+  "sword": 0,
+  "sworddurability": 0,
+  "pickaxe": 0,
+  "pickaxedurability": 0,
+  "fishingrod": 0,
+  "fishingroddurability": 0,
+  "jailUntil": 0,
+  "chatKoinHari": "Mon May 18 2026",
+  "chatKoinJumlah": 22,
+  "food": 0,
+  "pernikahan": {
+    "status": "lajang",
+    "pasanganJid": null,
+    "npc": null,
+    "lamaranDari": null,
+    "lamaranTs": null,
+    "nikahTs": null,
+    "rumah": "kontrakan",
+    "relationship": 50,
+    "konflik": 0,
+    "mood": "senang",
+    "moodTs": 1776848658720,
+    "anak": [],
+    "lastBuatAnak": 0,
+    "lastEvent": 0,
+    "lastGajiPasangan": 0,
+    "selingkuh": null
+  },
+  "bank": 290695,
+  "bankLog": [
+    {
+      "type": "PAJAK",
+      "amount": -5932,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779107289500
+    },
+    {
+      "type": "PAJAK",
+      "amount": -6053,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779103431154
+    },
+    {
+      "type": "PAJAK",
+      "amount": -6177,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779099831125
+    },
+    {
+      "type": "PAJAK",
+      "amount": -6303,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779096231023
+    },
+    {
+      "type": "PAJAK",
+      "amount": -6431,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779092631024
+    },
+    {
+      "type": "PAJAK",
+      "amount": -6563,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779089031022
+    },
+    {
+      "type": "PAJAK",
+      "amount": -6697,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779085431020
+    },
+    {
+      "type": "PAJAK",
+      "amount": -6833,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779081831037
+    },
+    {
+      "type": "PAJAK",
+      "amount": -6973,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779075172590
+    },
+    {
+      "type": "PAJAK",
+      "amount": -7115,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779071572590
+    },
+    {
+      "type": "PAJAK",
+      "amount": -7260,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779067972589
+    },
+    {
+      "type": "PAJAK",
+      "amount": -7408,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779064372584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -7560,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779060772584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -7714,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779057172585
+    },
+    {
+      "type": "PAJAK",
+      "amount": -7871,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779053572584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -8032,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779049972584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -8196,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779046372584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -8363,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779042772583
+    },
+    {
+      "type": "PAJAK",
+      "amount": -8534,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779039172584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -8708,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779035572583
+    }
+  ],
+  "creditScore": 500,
+  "asuransi": false,
+  "asuransiExp": 0,
+  "invest": 0,
+  "investTime": 0,
+  "portfolio": {},
+  "staking": {},
+  "riwayatTransfer": [
+    {
+      "tipe": "masuk",
+      "nominal": 5000000,
+      "nama": "Cid Rich",
+      "waktu": "26/4/2026, 17.34.02"
+    }
+  ]
+}

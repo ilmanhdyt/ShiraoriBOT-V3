@@ -1,0 +1,33 @@
+{
+  "exp": 106,
+  "registered": true,
+  "name": "Wandi",
+  "age": 55,
+  "regTime": 1776702462016,
+  "banned": false,
+  "warn": 0,
+  "level": 1,
+  "role": "👿 Lesser Demon",
+  "autolevelup": true,
+  "pet": null,
+  "warning": 0,
+  "pernikahan": {
+    "status": "lajang",
+    "pasanganJid": null,
+    "npc": null,
+    "lamaranDari": null,
+    "lamaranTs": null,
+    "nikahTs": null,
+    "rumah": "kontrakan",
+    "relationship": 50,
+    "konflik": 0,
+    "mood": "senang",
+    "moodTs": 1779153243812,
+    "anak": [],
+    "lastBuatAnak": 0,
+    "lastEvent": 0,
+    "lastGajiPasangan": 0,
+    "selingkuh": null
+  },
+  "money": 5000000
+}

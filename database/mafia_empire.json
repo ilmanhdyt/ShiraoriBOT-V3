@@ -1,0 +1,212 @@
+{
+  "players": {
+    "120363406809638646@g.us": {
+      "174354348417270": {
+        "name": "ilmanjay",
+        "buildings": {
+          "hq": 2,
+          "mine": 1,
+          "fortress": 0,
+          "barracks": 1,
+          "market": 0
+        },
+        "troops": {
+          "soldier": 217,
+          "archer": 5,
+          "knight": 9999
+        },
+        "alliance": "Tempest",
+        "lastCollect": 1771648948013
+      },
+      "20143849627780": {
+        "name": "mahamaru wabot",
+        "buildings": {
+          "hq": 1,
+          "mine": 0,
+          "fortress": 0,
+          "barracks": 1,
+          "market": 0
+        },
+        "troops": {
+          "soldier": 10,
+          "archer": 0,
+          "knight": 0
+        },
+        "alliance": null,
+        "lastCollect": 1771608571695
+      }
+    },
+    "120363294962477097@g.us": {
+      "2680546132165": {
+        "name": "nasrul rajab",
+        "buildings": {
+          "hq": 1,
+          "mine": 0,
+          "fortress": 0,
+          "barracks": 1,
+          "market": 0
+        },
+        "troops": {
+          "soldier": 2,
+          "archer": 1,
+          "knight": 3
+        },
+        "alliance": null,
+        "lastCollect": 0
+      }
+    },
+    "6283102255420-1624004958@g.us": {
+      "203706121334969": {
+        "name": "🏜️",
+        "buildings": {
+          "hq": 2,
+          "mine": 1,
+          "fortress": 0,
+          "barracks": 0,
+          "market": 0
+        },
+        "troops": {
+          "soldier": 0,
+          "archer": 0,
+          "knight": 0
+        },
+        "alliance": "The Serpent Society",
+        "lastCollect": 1776491249066
+      },
+      "174354348417270": {
+        "name": "ilmanjay",
+        "buildings": {
+          "hq": 2,
+          "mine": 0,
+          "fortress": 0,
+          "barracks": 1,
+          "market": 0
+        },
+        "troops": {
+          "soldier": 18,
+          "archer": 0,
+          "knight": 0
+        },
+        "alliance": null,
+        "lastCollect": 1776493826580
+      },
+      "174100861427848": {
+        "name": "Cidz",
+        "buildings": {
+          "hq": 1,
+          "mine": 1,
+          "fortress": 0,
+          "barracks": 1,
+          "market": 0
+        },
+        "troops": {
+          "soldier": 16,
+          "archer": 9,
+          "knight": 0
+        },
+        "alliance": null,
+        "lastCollect": 1776495630066
+      },
+      "28295395565757": {
+        "name": "vvv",
+        "buildings": {
+          "hq": 1,
+          "mine": 0,
+          "fortress": 0,
+          "barracks": 0,
+          "market": 0
+        },
+        "troops": {
+          "soldier": 0,
+          "archer": 0,
+          "knight": 0
+        },
+        "alliance": null,
+        "lastCollect": 0
+      },
+      "6287794142588": {
+        "name": "🏜️",
+        "buildings": {
+          "hq": 1,
+          "mine": 2,
+          "fortress": 0,
+          "barracks": 1,
+          "market": 0
+        },
+        "troops": {
+          "soldier": 10,
+          "archer": 0,
+          "knight": 0
+        },
+        "alliance": null,
+        "lastCollect": 1777040504793
+      }
+    },
+    "174354348417270@lid": {
+      "troops": {
+        "name": "",
+        "buildings": {},
+        "troops": {},
+        "alliance": null,
+        "lastCollect": 0
+      },
+      "resources": {
+        "name": "",
+        "buildings": {},
+        "troops": {},
+        "alliance": null,
+        "lastCollect": 0
+      },
+      "buildings": {
+        "name": "",
+        "buildings": {},
+        "troops": {},
+        "alliance": null,
+        "lastCollect": 0
+      }
+    },
+    "120363425147064322@g.us": {
+      "6281351047727": {
+        "name": "ilmanjay",
+        "buildings": {
+          "hq": 1,
+          "mine": 0,
+          "fortress": 0,
+          "barracks": 0,
+          "market": 0
+        },
+        "troops": {
+          "soldier": 0,
+          "archer": 0,
+          "knight": 0
+        },
+        "alliance": null,
+        "lastCollect": 0
+      }
+    }
+  },
+  "alliances": {
+    "120363406809638646@g.us": {
+      "Tempest": {
+        "name": "Tempest",
+        "leader": "174354348417270@lid",
+        "members": [
+          "174354348417270"
+        ],
+        "createdAt": 1771606701469
+      }
+    },
+    "120363294962477097@g.us": {},
+    "6283102255420-1624004958@g.us": {
+      "The Serpent Society": {
+        "name": "The Serpent Society",
+        "leader": "203706121334969@lid",
+        "members": [
+          "203706121334969"
+        ],
+        "createdAt": 1776449401522
+      }
+    },
+    "120363425147064322@g.us": {}
+  }
+}

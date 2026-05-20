@@ -1,0 +1,218 @@
+{
+  "menu.js": {
+    "total": 10,
+    "success": 10,
+    "last": 1779288469435,
+    "lastSuccess": 1779288469435
+  },
+  "bank.js": {
+    "total": 4,
+    "success": 4,
+    "last": 1779153286741,
+    "lastSuccess": 1779153286741
+  },
+  "donasi.js": {
+    "total": 7,
+    "success": 7,
+    "last": 1779288218260,
+    "lastSuccess": 1779288218260
+  },
+  "leaderboard.js": {
+    "total": 8,
+    "success": 8,
+    "last": 1779285853676,
+    "lastSuccess": 1779285853676
+  },
+  "brat.js": {
+    "total": 4,
+    "success": 4,
+    "last": 1779265263721,
+    "lastSuccess": 1779265263721
+  },
+  "setmoney.js": {
+    "total": 5,
+    "success": 5,
+    "last": 1779259670725,
+    "lastSuccess": 1779259670725
+  },
+  "dompet.js": {
+    "total": 5,
+    "success": 5,
+    "last": 1779192278162,
+    "lastSuccess": 1779192278162
+  },
+  "daftar.js": {
+    "total": 18,
+    "success": 15,
+    "last": 1779281008673,
+    "lastSuccess": 1779281008673
+  },
+  "addmoney.js": {
+    "total": 2,
+    "success": 2,
+    "last": 1779158779036,
+    "lastSuccess": 1779158779036
+  },
+  "hapususer.js": {
+    "total": 2,
+    "success": 2,
+    "last": 1779158817468,
+    "lastSuccess": 1779158817468
+  },
+  "listfitur.js": {
+    "total": 2,
+    "success": 2,
+    "last": 1779158854017,
+    "lastSuccess": 1779158854017
+  },
+  "liatfitur.js": {
+    "total": 3,
+    "success": 3,
+    "last": 1779209543190,
+    "lastSuccess": 1779209543190
+  },
+  "editfitur.js": {
+    "total": 3,
+    "success": 3,
+    "last": 1779209587100,
+    "lastSuccess": 1779209587100
+  },
+  "play.js": {
+    "total": 43,
+    "success": 43,
+    "last": 1779285379400,
+    "lastSuccess": 1779285379400
+  },
+  "tiktok.js": {
+    "total": 15,
+    "success": 15,
+    "last": 1779275633664,
+    "lastSuccess": 1779275633664
+  },
+  "carilid.js": {
+    "total": 7,
+    "success": 7,
+    "last": 1779285889067,
+    "lastSuccess": 1779285889067
+  },
+  "toko.js": {
+    "total": 13,
+    "success": 11,
+    "last": 1779265335619,
+    "lastSuccess": 1779265276281
+  },
+  "watermark.js": {
+    "total": 2,
+    "success": 2,
+    "last": 1779161388232,
+    "lastSuccess": 1779161388232
+  },
+  "sticker.js": {
+    "total": 11,
+    "success": 8,
+    "last": 1779273557557,
+    "lastSuccess": 1779272947526
+  },
+  "my.js": {
+    "total": 9,
+    "success": 9,
+    "last": 1779265352463,
+    "lastSuccess": 1779265352463
+  },
+  "invest.js": {
+    "total": 7,
+    "success": 7,
+    "last": 1779248761878,
+    "lastSuccess": 1779248761878
+  },
+  "work.js": {
+    "total": 5,
+    "success": 4,
+    "last": 1779209275764,
+    "lastSuccess": 1779209046626
+  },
+  "crypto.js": {
+    "total": 9,
+    "success": 9,
+    "last": 1779193371426,
+    "lastSuccess": 1779193371426
+  },
+  "instagram.js": {
+    "total": 4,
+    "success": 4,
+    "last": 1779238694193,
+    "lastSuccess": 1779238694193
+  },
+  "afk.js": {
+    "total": 5,
+    "success": 5,
+    "last": 1779273568843,
+    "lastSuccess": 1779273568843
+  },
+  "pinjol.js": {
+    "total": 6,
+    "success": 6,
+    "last": 1779209293769,
+    "lastSuccess": 1779209293769
+  },
+  "judi.js": {
+    "total": 3,
+    "success": 3,
+    "last": 1779209158843,
+    "lastSuccess": 1779209158843
+  },
+  "unreg.js": {
+    "total": 3,
+    "success": 1,
+    "last": 1779209223153,
+    "lastSuccess": 1779209223153
+  },
+  "cekfile.js": {
+    "total": 2,
+    "success": 2,
+    "last": 1779209526986,
+    "lastSuccess": 1779209526986
+  },
+  "boostjs.js": {
+    "total": 5,
+    "success": 5,
+    "last": 1779288454601,
+    "lastSuccess": 1779288454601
+  },
+  "addexp.js": {
+    "total": 4,
+    "success": 4,
+    "last": 1779212915191,
+    "lastSuccess": 1779212915191
+  },
+  "nekonsfw.js": {
+    "total": 2,
+    "success": 0,
+    "last": 1779261046646,
+    "lastSuccess": 0
+  },
+  "neko.js": {
+    "total": 2,
+    "success": 0,
+    "last": 1779261103652,
+    "lastSuccess": 0
+  },
+  "owner.js": {
+    "total": 6,
+    "success": 6,
+    "last": 1779288442995,
+    "lastSuccess": 1779288442995
+  },
+  "sourcecode.js": {
+    "total": 3,
+    "success": 3,
+    "last": 1779285651411,
+    "lastSuccess": 1779285651411
+  },
+  "gitclone.js": {
+    "total": 2,
+    "success": 2,
+    "last": 1779285669335,
+    "lastSuccess": 1779285669335
+  }
+}

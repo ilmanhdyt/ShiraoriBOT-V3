@@ -1,0 +1,315 @@
+{
+  "limit": 0,
+  "afk": -1,
+  "afkReason": "",
+  "money": 1470,
+  "healt": 100,
+  "potion": 10,
+  "streak": 1,
+  "petFood": 1,
+  "makananpet": 0,
+  "sampah": 0,
+  "kayu": 3,
+  "batu": 0,
+  "string": 0,
+  "emerald": 0,
+  "diamond": 0,
+  "gold": 0,
+  "iron": 0,
+  "common": 0,
+  "uncommon": 0,
+  "mythic": 0,
+  "legendary": 0,
+  "petCount": 0,
+  "kuda": 0,
+  "kudaexp": 0,
+  "kucing": 0,
+  "kucingexp": 0,
+  "rubah": 0,
+  "rubahexp": 0,
+  "anjing": 0,
+  "anjingexp": 0,
+  "kudalastfeed": 0,
+  "kucinglastfeed": 0,
+  "rubahlastfeed": 0,
+  "anjinglastfeed": 0,
+  "armor": 0,
+  "armordurability": 0,
+  "sword": 0,
+  "sworddurability": 0,
+  "pickaxe": 0,
+  "pickaxedurability": 0,
+  "fishingrod": 0,
+  "fishingroddurability": 0,
+  "jailUntil": 0,
+  "chatKoinHari": "Mon May 18 2026",
+  "chatKoinJumlah": 48,
+  "bank": 1028746,
+  "bankLog": [
+    {
+      "type": "PAJAK",
+      "amount": -20994,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779107289500
+    },
+    {
+      "type": "PAJAK",
+      "amount": -21423,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779103431154
+    },
+    {
+      "type": "PAJAK",
+      "amount": -21860,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779099831125
+    },
+    {
+      "type": "PAJAK",
+      "amount": -22306,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779096231023
+    },
+    {
+      "type": "PAJAK",
+      "amount": -22761,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779092631024
+    },
+    {
+      "type": "PAJAK",
+      "amount": -23226,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779089031022
+    },
+    {
+      "type": "PAJAK",
+      "amount": -23700,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779085431020
+    },
+    {
+      "type": "PAJAK",
+      "amount": -24184,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779081831037
+    },
+    {
+      "type": "PAJAK",
+      "amount": -24677,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779075172590
+    },
+    {
+      "type": "BUNGA",
+      "amount": 222502,
+      "note": "Bunga tabungan 22 hari",
+      "time": 1779073512802
+    },
+    {
+      "type": "PAJAK",
+      "amount": -216172,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779071572590
+    },
+    {
+      "type": "PAJAK",
+      "amount": -220583,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779067972589
+    },
+    {
+      "type": "PAJAK",
+      "amount": -225085,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779064372584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -229679,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779060772584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -234366,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779057172584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -239149,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779053572584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -244030,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779049972584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -249010,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779046372584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -254092,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779042772583
+    },
+    {
+      "type": "PAJAK",
+      "amount": -259277,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779039172584
+    }
+  ],
+  "creditScore": 530,
+  "asuransi": false,
+  "asuransiExp": 0,
+  "invest": 10000000,
+  "investTime": 1778987946761,
+  "portfolio": {},
+  "staking": {
+    "ETH": {
+      "jumlah": 0.5184054253780068,
+      "since": 1777054311898,
+      "lockUntil": 1777140711898
+    },
+    "SHIB": {
+      "jumlah": 9811.6,
+      "since": 1777054397661,
+      "lockUntil": 1777140797661
+    },
+    "BTC": {
+      "jumlah": 0.06250249312946007,
+      "since": 1777054431924,
+      "lockUntil": 1777140831924
+    },
+    "DOGE": {
+      "jumlah": 1928.9498874356996,
+      "since": 1777063114705,
+      "lockUntil": 1777149514705
+    },
+    "SOL": {
+      "jumlah": 4.648953195631218,
+      "since": 1777232631440,
+      "lockUntil": 1777319031440
+    }
+  },
+  "riwayatTransfer": [
+    {
+      "tipe": "masuk",
+      "nominal": 12000000,
+      "nama": "Cid Rich",
+      "waktu": "21/4/2026, 00.19.53"
+    },
+    {
+      "tipe": "masuk",
+      "nominal": 4000000,
+      "nama": "Cid Rich",
+      "waktu": "21/4/2026, 00.13.13"
+    },
+    {
+      "tipe": "masuk",
+      "nominal": 900000,
+      "nama": "Cid Rich",
+      "waktu": "20/4/2026, 23.46.19"
+    },
+    {
+      "tipe": "masuk",
+      "nominal": 10000000,
+      "nama": "Cid Rich",
+      "waktu": "20/4/2026, 22.14.59"
+    },
+    {
+      "tipe": "masuk",
+      "nominal": 1000,
+      "nama": "Cid Rich",
+      "waktu": "20/4/2026, 14.14.24"
+    }
+  ],
+  "chicken": {
+    "name": "Ayam Liar",
+    "hp": 124,
+    "atk": 22,
+    "def": 11,
+    "spd": 11,
+    "win": 6,
+    "lose": 4,
+    "level": 3,
+    "exp": 99
+  },
+  "gamblingStats": {
+    "win": 8,
+    "lose": 7,
+    "totalBet": 4211578
+  },
+  "judiCount": 1,
+  "judiDate": "2026-04-27",
+  "judiBonusLimit": 0,
+  "food": 0,
+  "pernikahan": {
+    "status": "lajang",
+    "pasanganJid": null,
+    "npc": null,
+    "lamaranDari": null,
+    "lamaranTs": null,
+    "nikahTs": null,
+    "rumah": "kontrakan",
+    "relationship": 50,
+    "konflik": 0,
+    "mood": "senang",
+    "moodTs": 1776848658720,
+    "anak": [],
+    "lastBuatAnak": 0,
+    "lastEvent": 0,
+    "lastGajiPasangan": 0,
+    "selingkuh": null
+  },
+  "tensura": {
+    "active": true,
+    "race": "slime",
+    "evolution": null,
+    "prevRace": null,
+    "level": 1,
+    "hp": 25,
+    "maxHp": 80,
+    "atk": 10,
+    "def": 5,
+    "mag": 10,
+    "souls": 77008,
+    "killCount": 10101,
+    "specialKills": {
+      "Beast": 1
+    },
+    "skills": [
+      "Predator",
+      "Auto Regeneration"
+    ],
+    "consumedMonsters": [
+      "Wolf"
+    ],
+    "npcs": [],
+    "kingdom": null,
+    "canConsume": true,
+    "hasSage": false,
+    "canCombine": false,
+    "defeatedDemonLord": false,
+    "lastHunt": 1777057462582,
+    "lastDuel": 0,
+    "lastSage": 0,
+    "lastGacha": 0,
+    "awoken": false,
+    "titles": [
+      "Reincarnator",
+      "Slime Awakened"
+    ],
+    "statusEffects": [],
+    "contractWith": null,
+    "demonLordAwakened": false
+  }
+}

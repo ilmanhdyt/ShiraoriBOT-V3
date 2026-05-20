@@ -1,0 +1,14 @@
+{
+  "isBanned": false,
+  "welcome": false,
+  "detect": false,
+  "sWelcome": "",
+  "sBye": "",
+  "sPromote": "",
+  "sDemote": "",
+  "delete": true,
+  "antiLink": false,
+  "simi": false,
+  "viewonce": false,
+  "antiToxic": true
+}

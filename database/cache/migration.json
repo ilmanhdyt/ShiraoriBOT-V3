@@ -1,0 +1,6 @@
+{
+  "migratedAt": "2026-05-14T21:08:58.932Z",
+  "source": "flat-hybrid-files",
+  "mode": "per-user-files",
+  "note": "Flat user section files migrated into sharded per-user folders."
+}

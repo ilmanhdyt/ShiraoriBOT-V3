@@ -1,0 +1,33 @@
+{
+  "exp": 45,
+  "registered": true,
+  "name": "kuni",
+  "age": 20,
+  "regTime": 1778973253433,
+  "banned": false,
+  "warn": 0,
+  "level": 0,
+  "role": "👿 Lesser Demon",
+  "autolevelup": true,
+  "pet": null,
+  "warning": 0,
+  "pernikahan": {
+    "status": "lajang",
+    "pasanganJid": null,
+    "npc": null,
+    "lamaranDari": null,
+    "lamaranTs": null,
+    "nikahTs": null,
+    "rumah": "kontrakan",
+    "relationship": 50,
+    "konflik": 0,
+    "mood": "senang",
+    "moodTs": 1779153243812,
+    "anak": [],
+    "lastBuatAnak": 0,
+    "lastEvent": 0,
+    "lastGajiPasangan": 0,
+    "selingkuh": null
+  },
+  "money": 5000000
+}
