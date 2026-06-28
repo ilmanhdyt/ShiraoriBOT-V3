@@ -1,0 +1,156 @@
+{
+  "limit": 0,
+  "afk": -1,
+  "afkReason": "",
+  "money": 552681,
+  "healt": 100,
+  "potion": 10,
+  "streak": 0,
+  "petFood": 2,
+  "makananpet": 0,
+  "sampah": 13,
+  "kayu": 0,
+  "batu": 0,
+  "string": 0,
+  "emerald": 0,
+  "diamond": 0,
+  "gold": 0,
+  "iron": 0,
+  "common": 0,
+  "uncommon": 0,
+  "mythic": 0,
+  "legendary": 0,
+  "petCount": 0,
+  "kuda": 0,
+  "kudaexp": 0,
+  "kucing": 0,
+  "kucingexp": 0,
+  "rubah": 0,
+  "rubahexp": 0,
+  "anjing": 0,
+  "anjingexp": 0,
+  "kudalastfeed": 0,
+  "kucinglastfeed": 0,
+  "rubahlastfeed": 0,
+  "anjinglastfeed": 0,
+  "armor": 0,
+  "armordurability": 0,
+  "sword": 0,
+  "sworddurability": 0,
+  "pickaxe": 0,
+  "pickaxedurability": 0,
+  "fishingrod": 0,
+  "fishingroddurability": 0,
+  "jailUntil": 0,
+  "food": 0,
+  "pernikahan": {
+    "status": "lajang",
+    "pasanganJid": null,
+    "npc": null,
+    "lamaranDari": null,
+    "lamaranTs": null,
+    "nikahTs": null,
+    "rumah": "kontrakan",
+    "relationship": 50,
+    "konflik": 0,
+    "mood": "senang",
+    "moodTs": 1777036232314,
+    "anak": [],
+    "lastBuatAnak": 0,
+    "lastEvent": 0,
+    "lastGajiPasangan": 0,
+    "selingkuh": null
+  },
+  "chatKoinHari": "Sat May 16 2026",
+  "chatKoinJumlah": 24,
+  "bank": 0,
+  "bankLog": [
+    {
+      "type": "CRYPTO_BUY",
+      "amount": -500000,
+      "note": "Beli 0.098847 BTC @ 5.000.000",
+      "time": 1778915684320
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -204000,
+      "note": "Lunas pinjol PNJMP806D3E (dompet 204.000, bank 0)",
+      "time": 1778915394965
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -204000,
+      "note": "Lunas pinjol PNJMP8061B8 (dompet 204.000, bank 0)",
+      "time": 1778915295506
+    },
+    {
+      "type": "PINJOL",
+      "amount": 200000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1778915194826
+    },
+    {
+      "type": "PINJOL",
+      "amount": 200000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1778915179556
+    },
+    {
+      "type": "INVEST_IN",
+      "amount": -1000000,
+      "note": "Investasi 1.000.000 rupiah",
+      "time": 1778915054547
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -102000,
+      "note": "Lunas pinjol PNJMOG00SAO",
+      "time": 1777222117176
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -10200,
+      "note": "Lunas pinjol PNJMOFZXPD5",
+      "time": 1777222072500
+    },
+    {
+      "type": "PINJOL",
+      "amount": 100000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1777221881664
+    },
+    {
+      "type": "PINJOL",
+      "amount": 10000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1777221737897
+    }
+  ],
+  "creditScore": 700,
+  "asuransi": false,
+  "asuransiExp": 0,
+  "invest": 1000000,
+  "investTime": 1778915054546,
+  "portfolio": {
+    "BTC": 0.0988468
+  },
+  "staking": {},
+  "chicken": null,
+  "gamblingStats": {
+    "win": 7,
+    "lose": 8,
+    "totalBet": 3365954
+  },
+  "judiCount": 4,
+  "judiDate": "2026-04-27",
+  "ikanBiasa": 1,
+  "judiBonusLimit": 0,
+  "riwayatTransfer": [
+    {
+      "tipe": "masuk",
+      "nominal": 1500000,
+      "nama": "ilman",
+      "waktu": "26/4/2026, 23.46.10"
+    }
+  ]
+}

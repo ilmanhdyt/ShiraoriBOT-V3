@@ -1,0 +1,21 @@
+{
+  "isBanned": false,
+  "welcome": true,
+  "detect": false,
+  "sWelcome": "",
+  "sBye": "",
+  "sPromote": "",
+  "sDemote": "",
+  "delete": true,
+  "antiLink": false,
+  "simi": false,
+  "viewonce": false,
+  "antiToxic": false,
+  "_init": true,
+  "botActive": true,
+  "charaCount": 0,
+  "charaNextSpawn": 75,
+  "claimChara": true,
+  "lastCharaSpawn": 1782391603254,
+  "spawnedChara": null
+}

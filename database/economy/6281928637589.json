@@ -1,0 +1,205 @@
+{
+  "limit": 0,
+  "afk": -1,
+  "afkReason": "",
+  "money": 547662,
+  "healt": 100,
+  "potion": 10,
+  "streak": 0,
+  "petFood": 1,
+  "makananpet": 0,
+  "food": 0,
+  "sampah": 0,
+  "kayu": 0,
+  "batu": 0,
+  "string": 0,
+  "emerald": 0,
+  "diamond": 0,
+  "gold": 0,
+  "iron": 0,
+  "common": 0,
+  "uncommon": 0,
+  "mythic": 0,
+  "legendary": 0,
+  "petCount": 0,
+  "kuda": 0,
+  "kudaexp": 0,
+  "kucing": 0,
+  "kucingexp": 0,
+  "rubah": 0,
+  "rubahexp": 0,
+  "anjing": 0,
+  "anjingexp": 0,
+  "kudalastfeed": 0,
+  "kucinglastfeed": 0,
+  "rubahlastfeed": 0,
+  "anjinglastfeed": 0,
+  "armor": 0,
+  "armordurability": 0,
+  "sword": 0,
+  "sworddurability": 0,
+  "pickaxe": 0,
+  "pickaxedurability": 0,
+  "fishingrod": 0,
+  "fishingroddurability": 0,
+  "jailUntil": 0,
+  "chatKoinHari": "Mon Apr 27 2026",
+  "chatKoinJumlah": 10,
+  "pernikahan": {
+    "status": "lajang",
+    "pasanganJid": null,
+    "npc": null,
+    "lamaranDari": null,
+    "lamaranTs": null,
+    "nikahTs": null,
+    "rumah": "kontrakan",
+    "relationship": 50,
+    "konflik": 0,
+    "mood": "senang",
+    "moodTs": 1777035624424,
+    "anak": [],
+    "lastBuatAnak": 0,
+    "lastEvent": 0,
+    "lastGajiPasangan": 0,
+    "selingkuh": null
+  },
+  "bank": 25540,
+  "bankLog": [
+    {
+      "type": "PAJAK",
+      "amount": -521,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779107289500
+    },
+    {
+      "type": "PAJAK",
+      "amount": -531,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779103431154
+    },
+    {
+      "type": "PAJAK",
+      "amount": -542,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779099831124
+    },
+    {
+      "type": "PAJAK",
+      "amount": -553,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779096231023
+    },
+    {
+      "type": "PAJAK",
+      "amount": -565,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779092631024
+    },
+    {
+      "type": "PAJAK",
+      "amount": -576,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779089031022
+    },
+    {
+      "type": "PAJAK",
+      "amount": -588,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779085431020
+    },
+    {
+      "type": "PAJAK",
+      "amount": -600,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779081831037
+    },
+    {
+      "type": "PAJAK",
+      "amount": -612,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779075172590
+    },
+    {
+      "type": "PAJAK",
+      "amount": -625,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779071572590
+    },
+    {
+      "type": "PAJAK",
+      "amount": -637,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779067972589
+    },
+    {
+      "type": "PAJAK",
+      "amount": -650,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779064372584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -664,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779060772584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -677,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779057172584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -691,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779053572584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -705,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779049972584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -719,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779046372584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -734,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779042772583
+    },
+    {
+      "type": "PAJAK",
+      "amount": -749,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779039172584
+    },
+    {
+      "type": "PAJAK",
+      "amount": -764,
+      "note": "Pajak bank 2%/jam",
+      "time": 1779035572583
+    }
+  ],
+  "creditScore": 500,
+  "asuransi": false,
+  "asuransiExp": 0,
+  "invest": 0,
+  "investTime": 0,
+  "portfolio": {},
+  "staking": {},
+  "chicken": null,
+  "gamblingStats": {
+    "win": 8,
+    "lose": 5,
+    "totalBet": 408828
+  },
+  "judiCount": 3,
+  "judiDate": "2026-04-27",
+  "judiBonusLimit": 0
+}

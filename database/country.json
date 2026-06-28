@@ -1,0 +1,23 @@
+{
+  "president": "6281351047727",
+  "vicePresident": "62895803135347",
+  "police": [
+    "6282114120737"
+  ],
+  "treasury": 98203974,
+  "salary": {
+    "president": 1000000,
+    "vicePresident": 30000,
+    "police": 500000
+  },
+  "election": {
+    "active": false,
+    "candidates": [
+      "6288238307243",
+      "6289509330218",
+      "6281388046035"
+    ],
+    "votes": {}
+  },
+  "lastSalaryPaid": 1782384822683
+}

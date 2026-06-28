@@ -1,0 +1,12 @@
+{
+  "heistStats": {
+    "sukses": 0,
+    "gagal": 0,
+    "totalRampok": 0,
+    "totalDenda": 0,
+    "betrayCount": 0,
+    "jailCount": 0
+  },
+  "heistWanted": 0,
+  "heistJailUntil": 0
+}

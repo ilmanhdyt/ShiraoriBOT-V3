@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  <text x="400" y="200" font-family="Arial" font-size="40" fill="white" text-anchor="middle">Welcome</text>
+  <image id="pp" x="50" y="50" width="100" height="100" xlink:href=""/>
+  <image id="bg" x="0" y="0" width="800" height="400" xlink:href=""/>
+  <text id="name" x="200" y="200" font-family="Arial" font-size="30" fill="white"></text>
+  <text id="subject" x="400" y="350" font-family="Arial" font-size="20" fill="white" text-anchor="middle"></text>
+</svg>

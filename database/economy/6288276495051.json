@@ -1,0 +1,206 @@
+{
+  "limit": 10,
+  "afk": -1,
+  "afkReason": "",
+  "money": 257883,
+  "healt": 100,
+  "potion": 13,
+  "streak": 0,
+  "petFood": 3,
+  "makananpet": 0,
+  "sampah": 0,
+  "kayu": 0,
+  "batu": 0,
+  "string": 0,
+  "emerald": 0,
+  "diamond": 0,
+  "gold": 0,
+  "iron": 0,
+  "common": 0,
+  "uncommon": 0,
+  "mythic": 0,
+  "legendary": 8,
+  "petCount": 0,
+  "kuda": 0,
+  "kudaexp": 0,
+  "kucing": 0,
+  "kucingexp": 0,
+  "rubah": 0,
+  "rubahexp": 0,
+  "anjing": 0,
+  "anjingexp": 0,
+  "kudalastfeed": 0,
+  "kucinglastfeed": 0,
+  "rubahlastfeed": 0,
+  "anjinglastfeed": 0,
+  "armor": 0,
+  "armordurability": 0,
+  "sword": 0,
+  "sworddurability": 0,
+  "pickaxe": 0,
+  "pickaxedurability": 0,
+  "fishingrod": 0,
+  "fishingroddurability": 0,
+  "jailUntil": 1777277767500,
+  "chatKoinHari": "Mon Apr 27 2026",
+  "chatKoinJumlah": 40,
+  "bank": 0,
+  "bankLog": [
+    {
+      "type": "DENDA",
+      "amount": -592737,
+      "note": "Ketangkap rob bank, denda 592.737",
+      "time": 1777270757759
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -251550,
+      "note": "Cicil pinjol PNJMOG9N78V, sisa 758.450",
+      "time": 1777270257801
+    },
+    {
+      "type": "PINJOL",
+      "amount": 1000000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1777238081866
+    },
+    {
+      "type": "PINJOL",
+      "amount": 1000000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1777238055330
+    },
+    {
+      "type": "PINJOL",
+      "amount": 1000000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1777238044016
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -1010000,
+      "note": "Lunas pinjol PNJMOG9HMXB",
+      "time": 1777237796341
+    },
+    {
+      "type": "PINJOL",
+      "amount": 1000000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1777237784399
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -1010000,
+      "note": "Lunas pinjol PNJMOG50V9B",
+      "time": 1777230307821
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -1010000,
+      "note": "Lunas pinjol PNJMOG50BN7",
+      "time": 1777230295193
+    },
+    {
+      "type": "PINJOL",
+      "amount": 1000000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1777230283583
+    },
+    {
+      "type": "PINJOL",
+      "amount": 1000000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1777230258163
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -507500,
+      "note": "Lunas pinjol PNJMOG4YL2X",
+      "time": 1777230218282
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -507500,
+      "note": "Lunas pinjol PNJMOG4YCMP",
+      "time": 1777230204914
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -507500,
+      "note": "Lunas pinjol PNJMOG4Y44T",
+      "time": 1777230190458
+    },
+    {
+      "type": "PINJOL",
+      "amount": 500000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1777230177081
+    },
+    {
+      "type": "PINJOL",
+      "amount": 500000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1777230166129
+    },
+    {
+      "type": "PINJOL",
+      "amount": 500000,
+      "note": "Pinjam dari Bank Negara",
+      "time": 1777230155117
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -204000,
+      "note": "Lunas pinjol PNJMOG4W9BE",
+      "time": 1777230116596
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -204000,
+      "note": "Lunas pinjol PNJMOG4VVV9",
+      "time": 1777230095124
+    },
+    {
+      "type": "BAYAR_PINJOL",
+      "amount": -204000,
+      "note": "Lunas pinjol PNJMOG4VMNO",
+      "time": 1777230081647
+    }
+  ],
+  "creditScore": 1000,
+  "asuransi": false,
+  "asuransiExp": 0,
+  "invest": 0,
+  "investTime": 0,
+  "portfolio": {},
+  "staking": {},
+  "chicken": null,
+  "gamblingStats": {
+    "win": 2,
+    "lose": 3,
+    "totalBet": 6797950
+  },
+  "judiCount": 1,
+  "judiDate": "2026-04-20",
+  "judiBonusLimit": 0,
+  "food": 0,
+  "pernikahan": {
+    "status": "lajang",
+    "pasanganJid": null,
+    "npc": null,
+    "lamaranDari": null,
+    "lamaranTs": null,
+    "nikahTs": null,
+    "rumah": "kontrakan",
+    "relationship": 50,
+    "konflik": 0,
+    "mood": "senang",
+    "moodTs": 1776848658720,
+    "anak": [],
+    "lastBuatAnak": 0,
+    "lastEvent": 0,
+    "lastGajiPasangan": 0,
+    "selingkuh": null
+  },
+  "besi": 4
+}

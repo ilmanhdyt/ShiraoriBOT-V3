@@ -1,0 +1,474 @@
+{
+  "limit": 3,
+  "afk": -1,
+  "afkReason": "",
+  "money": 10000000,
+  "healt": 100,
+  "potion": 10,
+  "streak": 1,
+  "petFood": 4,
+  "makananpet": 0,
+  "sampah": 0,
+  "kayu": 97,
+  "batu": 95,
+  "string": 0,
+  "emerald": 102,
+  "diamond": 100,
+  "gold": 0,
+  "iron": 94,
+  "common": 0,
+  "uncommon": 0,
+  "mythic": 0,
+  "legendary": 8,
+  "petCount": 0,
+  "kuda": 0,
+  "kudaexp": 0,
+  "kucing": 0,
+  "kucingexp": 0,
+  "rubah": 0,
+  "rubahexp": 0,
+  "anjing": 0,
+  "anjingexp": 0,
+  "kudalastfeed": 0,
+  "kucinglastfeed": 0,
+  "rubahlastfeed": 0,
+  "anjinglastfeed": 0,
+  "armor": 1,
+  "armordurability": 0,
+  "sword": 1,
+  "sworddurability": 0,
+  "pickaxe": 0,
+  "pickaxedurability": 0,
+  "fishingrod": 0,
+  "fishingroddurability": 0,
+  "jailUntil": 0,
+  "chatKoinHari": "Tue Apr 28 2026",
+  "chatKoinJumlah": 18,
+  "chicken": {
+    "name": "Sang Juara",
+    "hp": 251,
+    "atk": 46,
+    "def": 24,
+    "spd": 28,
+    "win": 151,
+    "lose": 12,
+    "level": 16,
+    "exp": 72
+  },
+  "gamblingStats": {
+    "win": 158,
+    "lose": 23,
+    "totalBet": 3.3238226228087105e+33
+  },
+  "judiCount": 6,
+  "judiDate": "2026-04-28",
+  "judiBonusLimit": 0,
+  "bank": 653789612,
+  "bankLog": [
+    {
+      "type": "TRANSFER_OUT",
+      "amount": -61000000000,
+      "note": "Transfer ke Bank @6281388046035 + pajak",
+      "time": 1777338872170
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 2,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777338870166
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 2,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777338796040
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 2,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777338721590
+    },
+    {
+      "type": "TRANSFER_OUT",
+      "amount": -2000000000000,
+      "note": "Transfer ke Bank @6281388046035 + pajak",
+      "time": 1777338678670
+    },
+    {
+      "type": "BUNGA",
+      "amount": 20954834341,
+      "note": "Bunga tabungan 1 hari",
+      "time": 1777338654489
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 2,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777338652485
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 2095370785113,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777338652184
+    },
+    {
+      "type": "CRYPTO_SELL",
+      "amount": 2095370785113,
+      "note": "Jual 67999200.699619 ETH @ 31.065",
+      "time": 1777338610250
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 2,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777338560712
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 2,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777337884872
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 2,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777337811643
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 2,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777337604084
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 20668526,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777337504372
+    },
+    {
+      "type": "CRYPTO_SELL",
+      "amount": 30668526,
+      "note": "Jual 800.000000 ETH @ 38.900",
+      "time": 1777337489928
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 33999989719,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777337449674
+    },
+    {
+      "type": "CRYPTO_SELL",
+      "amount": 34009987919,
+      "note": "Jual 887777.000000 ETH @ 38.900",
+      "time": 1777337432059
+    },
+    {
+      "type": "CRYPTO_BUY",
+      "amount": -2732443815439,
+      "note": "Beli 68887777.699619 ETH @ 39.350",
+      "time": 1777337413386
+    },
+    {
+      "type": "AUTO-DEP",
+      "amount": 7989313451374,
+      "note": "Auto deposit kelebihan dompet (max 10.000.000)",
+      "time": 1777337368836
+    },
+    {
+      "type": "CRYPTO_SELL",
+      "amount": 7989320607361,
+      "note": "Jual 2061656.829989 BTC @ 3.901.491",
+      "time": 1777337366172
+    }
+  ],
+  "creditScore": 1000,
+  "asuransi": true,
+  "asuransiExp": 1777309480618,
+  "invest": 19481778633,
+  "investTime": 1777049237258,
+  "portfolio": {},
+  "staking": {},
+  "riwayatTransfer": [
+    {
+      "tipe": "keluar",
+      "nominal": 10000000,
+      "nama": "sheyra",
+      "waktu": "26/4/2026, 17.34.34"
+    },
+    {
+      "tipe": "keluar",
+      "nominal": 5000000,
+      "nama": "chyca",
+      "waktu": "26/4/2026, 17.34.02"
+    },
+    {
+      "tipe": "keluar",
+      "nominal": 5000000,
+      "nama": "sheyra",
+      "waktu": "26/4/2026, 16.42.31"
+    },
+    {
+      "tipe": "masuk",
+      "nominal": 25000000,
+      "nama": "mici",
+      "waktu": "21/4/2026, 06.39.06"
+    },
+    {
+      "tipe": "keluar",
+      "nominal": 12000000,
+      "nama": "keii",
+      "waktu": "21/4/2026, 00.19.53"
+    },
+    {
+      "tipe": "keluar",
+      "nominal": 4000000,
+      "nama": "keii",
+      "waktu": "21/4/2026, 00.13.13"
+    },
+    {
+      "tipe": "keluar",
+      "nominal": 900000,
+      "nama": "keii",
+      "waktu": "20/4/2026, 23.46.19"
+    },
+    {
+      "tipe": "keluar",
+      "nominal": 10000000,
+      "nama": "keii",
+      "waktu": "20/4/2026, 22.14.59"
+    },
+    {
+      "tipe": "keluar",
+      "nominal": 12000000000,
+      "nama": "mici",
+      "waktu": "20/4/2026, 22.10.59"
+    },
+    {
+      "tipe": "keluar",
+      "nominal": 5000000000,
+      "nama": "mici",
+      "waktu": "20/4/2026, 22.07.54"
+    }
+  ],
+  "gameCount": 5,
+  "heroes": [
+    {
+      "id": "mage",
+      "rarity": "rare",
+      "count": 2
+    },
+    {
+      "id": "assassin",
+      "rarity": "rare",
+      "count": 1
+    },
+    {
+      "id": "ranger",
+      "rarity": "rare",
+      "count": 1
+    },
+    {
+      "id": "healer",
+      "rarity": "common",
+      "count": 2
+    },
+    {
+      "id": "farmer",
+      "rarity": "common",
+      "count": 2
+    },
+    {
+      "id": "archer",
+      "rarity": "common",
+      "count": 1
+    },
+    {
+      "id": "shaman",
+      "rarity": "rare",
+      "count": 1
+    },
+    {
+      "id": "arch_mage",
+      "rarity": "legendary",
+      "count": 1
+    }
+  ],
+  "gachaPity": 1,
+  "ring": 1,
+  "equippedRing": 1,
+  "equippedArmor": 1,
+  "equippedSword": 1,
+  "hp": 159,
+  "food": 0,
+  "pernikahan": {
+    "status": "menikah",
+    "pasanganJid": "62895406350800",
+    "npc": null,
+    "lamaranDari": null,
+    "lamaranTs": null,
+    "nikahTs": 1777043694039,
+    "rumah": "mansion",
+    "relationship": 90,
+    "konflik": 56,
+    "mood": "marah",
+    "moodTs": 1777043694039,
+    "anak": [
+      {
+        "nama": "myciz",
+        "gender": "pria",
+        "fase": "dewasa",
+        "lahirTs": 1776004889250,
+        "sifat": [
+          "malas",
+          "pintar"
+        ],
+        "sekolah": null,
+        "npc": true,
+        "lastKerja": 1777305281520
+      }
+    ],
+    "lastBuatAnak": 1777044059230,
+    "lastEvent": 1777324805091,
+    "lastGajiPasangan": 1777043694039,
+    "selingkuh": {
+      "dengan": "sheyra",
+      "ts": 1777191623098
+    },
+    "lastInteraksi": 1777338894243,
+    "relZeroSince": null,
+    "lastKonflikDecay": 1777310405082,
+    "lastBonusAnak": 1777303205076,
+    "lastEvent_sakit": 1777239911879,
+    "moodDebuff": 1777239911880,
+    "lastDecay": 1777305281520,
+    "lastEvent_konflik": 1777324805091
+  },
+  "tensura": {
+    "active": true,
+    "race": "slime",
+    "evolution": "demon_lord",
+    "prevRace": "slime",
+    "level": 100,
+    "hp": 284,
+    "maxHp": 1672,
+    "atk": 10,
+    "def": 5,
+    "mag": 10,
+    "souls": 72020,
+    "killCount": 10605,
+    "specialKills": {
+      "Goblin": 2,
+      "Beast": 3,
+      "Demon": 1
+    },
+    "skills": [
+      "Auto Regeneration",
+      "Magic Sense",
+      "Great Sage",
+      "Arcane Mastery",
+      "Blade Mastery",
+      "Demon Eye",
+      "Dragon Breath",
+      "Accel",
+      "Raphael",
+      "Degenerate",
+      "Beelzebub",
+      "Pride (Sin)",
+      "Uriel (Covenant)",
+      "Calamity Aura",
+      "Demon Lord's Ambition",
+      "Demon Lord's Haki",
+      "Hero's Will",
+      "Arcane Burst",
+      "Hardened Hide",
+      "Demon Lord Seed",
+      "Predator King",
+      "Sage Dragon",
+      "Wrath Instinct"
+    ],
+    "consumedMonsters": [
+      "Goblin",
+      "Wolf",
+      "Demon Lord Minion"
+    ],
+    "npcs": [
+      {
+        "name": "beru",
+        "race": "Goblin",
+        "level": 3,
+        "atk": 37,
+        "def": 24,
+        "loyalty": 100,
+        "namedAt": 1777079303791
+      },
+      {
+        "name": "buruh",
+        "race": "Goblin",
+        "level": 6,
+        "atk": 42,
+        "def": 24,
+        "loyalty": 100,
+        "namedAt": 1777079325786
+      },
+      {
+        "name": "1",
+        "race": "Goblin",
+        "level": 7,
+        "atk": 39,
+        "def": 27,
+        "loyalty": 100,
+        "namedAt": 1777079348597
+      }
+    ],
+    "kingdom": {
+      "name": "cid empayer",
+      "level": 2,
+      "population": 4,
+      "income": 245,
+      "buildings": {
+        "Tempat Tinggal": 1,
+        "Barak": 4
+      },
+      "army": 400,
+      "founded": 1777079249916,
+      "lastKlaim": 1777079428622
+    },
+    "canConsume": true,
+    "hasSage": true,
+    "canCombine": true,
+    "defeatedDemonLord": false,
+    "lastHunt": 1777128392513,
+    "lastDuel": 1777082133685,
+    "lastSage": 1777038596770,
+    "lastGacha": 1777045631514,
+    "awoken": false,
+    "titles": [
+      "Reincarnator",
+      "Slime Awakened",
+      "Devourer",
+      "Demon Lord Candidate",
+      "Skill Weaver",
+      "Namer",
+      "True Demon Lord"
+    ],
+    "statusEffects": [],
+    "contractWith": null,
+    "demonLordAwakened": true,
+    "kill": 500,
+    "gachaCount": 1,
+    "lastSpy": 0
+  },
+  "gender": "pria",
+  "suratNikah": {
+    "gender": "pria",
+    "diisi": 1777042908000,
+    "lastGanti": 1777042908000
+  },
+  "cincin": 1,
+  "pembesaranak": 97
+}

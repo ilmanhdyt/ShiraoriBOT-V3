@@ -1,0 +1,115 @@
+{
+  "players": {
+    "120363406809638646@g.us": {}
+  },
+  "npcStates": {
+    "120363406809638646@g.us_174354348417270@lid_luna": {
+      "mood": 50,
+      "reputation": 0,
+      "chatHistory": [
+        {
+          "role": "user",
+          "content": "apakah nasib ku baik?"
+        },
+        {
+          "role": "assistant",
+          "content": "Hmm... aku tidak bisa menjawab sekarang."
+        },
+        {
+          "role": "user",
+          "content": "kenapa kamu tidak bisa jawab?"
+        },
+        {
+          "role": "assistant",
+          "content": "Hmm... aku tidak bisa menjawab sekarang."
+        },
+        {
+          "role": "user",
+          "content": "hm"
+        },
+        {
+          "role": "assistant",
+          "content": "Hmm... aku tidak bisa menjawab sekarang."
+        },
+        {
+          "role": "user",
+          "content": "apakah nasibku baik hari ini?"
+        },
+        {
+          "role": "assistant",
+          "content": "...bintang-bintang berbisik sesuatu... tapi aku belum bisa mendengarnya..."
+        }
+      ],
+      "activeQuest": null,
+      "questsDone": [],
+      "purchases": 0,
+      "lastChat": 1771608779164,
+      "isBanned": false
+    },
+    "120363406809638646@g.us_174354348417270@lid_burt": {
+      "mood": 50,
+      "reputation": 0,
+      "chatHistory": [
+        {
+          "role": "user",
+          "content": "hai"
+        },
+        {
+          "role": "assistant",
+          "content": "Hmm... aku tidak bisa menjawab sekarang."
+        }
+      ],
+      "activeQuest": null,
+      "questsDone": [],
+      "purchases": 0,
+      "lastChat": 1771607933676,
+      "isBanned": false
+    },
+    "120363406809638646@g.us_174354348417270@lid_aria": {
+      "mood": 50,
+      "reputation": 0,
+      "chatHistory": [
+        {
+          "role": "user",
+          "content": "apakah ada sesuatu?"
+        },
+        {
+          "role": "assistant",
+          "content": "Oh! Maaf aku sedang meracik obat. Ada yang bisa kubantu?"
+        },
+        {
+          "role": "user",
+          "content": "obat apa itu?"
+        },
+        {
+          "role": "assistant",
+          "content": "Oh! Maaf aku sedang meracik obat. Ada yang bisa kubantu?"
+        }
+      ],
+      "activeQuest": null,
+      "questsDone": [],
+      "purchases": 0,
+      "lastChat": 1771608812518,
+      "isBanned": false
+    },
+    "120363406809638646@g.us_174354348417270@lid_marco": {
+      "mood": 50,
+      "reputation": 0,
+      "chatHistory": [
+        {
+          "role": "user",
+          "content": "hai"
+        },
+        {
+          "role": "assistant",
+          "content": "Hmm. Aku sedang sibuk berpatroli. Ada urusan penting?"
+        }
+      ],
+      "activeQuest": null,
+      "questsDone": [],
+      "purchases": 0,
+      "lastChat": 1771678397143,
+      "isBanned": false
+    }
+  }
+}
