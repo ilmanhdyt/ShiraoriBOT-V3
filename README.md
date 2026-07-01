@@ -32,6 +32,7 @@
 ShiraoriBOT adalah bot WhatsApp Multi-Device yang dibangun di atas library **[`shiraori-baileys`](https://www.npmjs.com/package/shiraori-baileys)** — library Baileys kustom milik sendiri, dipadukan secara *hybrid* dengan **[`@whiskeysockets/baileys`](https://github.com/WhiskeySockets/Baileys)** resmi melalui *compatibility layer* (`lib/baileys-compat.js`). Pendekatan ini memungkinkan bot tetap memakai fitur-fitur terbaru dari Baileys resmi, sekaligus mendapat utilitas tambahan dan beberapa perbaikan khusus dari `shiraori-baileys` — terutama untuk resolusi **LID (Linked ID)** WhatsApp yang sering bikin pusing developer bot lain.
 
 [Coba Bot Nya](https://wa.me/62895803135347)
+
 [Grup Wa](https://chat.whatsapp.com/CKYb50fuGk22r3LSTmhb37?s=cl&p=a&ilr=1) 
 ---
 
