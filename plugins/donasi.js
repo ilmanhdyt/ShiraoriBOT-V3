@@ -1,5 +1,6 @@
-// plugins/donasi.js — Info donasi + tombol navigasi
-// Format: nativeFlowMessage via proto.Message.InteractiveMessage.create()
+// JANGAN GANTI INI!!! 
+// KETAHUAN GANTI BOT STOP UPDATE
+// CC: ILMANHDYT
 
 const fs   = require('fs')
 const path = require('path')
