@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@hapi/boom": "latest",
-    "shiraori-baileys": "^1.1.8",
+    "shiraori-baileys": "^1.1.9",
     "awesome-phonenumber": "^7.8.0",
     "canvas": "^3.2.3",
     "chalk": "^4.1.2",
