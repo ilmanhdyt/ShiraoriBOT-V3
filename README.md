@@ -33,7 +33,8 @@ ShiraoriBOT adalah bot WhatsApp Multi-Device yang dibangun di atas library **[`s
 
 [Coba Bot Nya](https://wa.me/62895803135347)
 
-[Grup Wa](https://chat.whatsapp.com/CKYb50fuGk22r3LSTmhb37?s=cl&p=a&ilr=1) 
+#### Join Group
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CKYb50fuGk22r3LSTmhb37?s=cl&p=a&ilr=1) 
 
 [SALURAN](https://whatsapp.com/channel/0029VbCv8hvIyPtQv7Lkfm2U) 
 ---
