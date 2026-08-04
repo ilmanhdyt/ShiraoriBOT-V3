@@ -1,301 +1,280 @@
+<h1 align="center">ShiraoriBOT</h1>
+
 <p align="center">
-<img src="https://telegra.ph/file/06db0eb84b88d11d76e6a.jpg" alt="SHIRAORI BOT" width="500"/>
+  <img src="https://telegra.ph/file/06db0eb84b88d11d76e6a.jpg" alt="ShiraoriBOT" width="500" />
 </p>
 
 <p align="center">
-<a href="#"><img title="ShiraoriBOT - WhatsApp Bot" src="https://img.shields.io/badge/ShiraoriBOT-WhatsApp%20Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+  <a href="https://github.com/ilmanhdyt/ShiraoriBOT-Md">
+    <img src="https://img.shields.io/badge/WhatsApp%20Bot-ShiraoriBOT-2ecc71?style=for-the-badge" alt="ShiraoriBOT" />
+  </a>
+  <a href="https://github.com/ilmanhdyt/ShiraoriBOT-Md/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-2E8B57?style=for-the-badge" alt="License: MIT" />
+  </a>
+  <a href="https://nodejs.org/">
+    <img src="https://img.shields.io/badge/node.js-18%2B-339933?logo=node.js&style=for-the-badge" alt="Node.js 18+" />
+  </a>
+  <a href="https://github.com/ilmanhdyt/ShiraoriBOT-Md">
+    <img src="https://img.shields.io/badge/status-active-2ECC71?style=for-the-badge" alt="Status: active" />
+  </a>
 </p>
 
-<p align="center">
-<a href="https://github.com/ilmanhdyt/ShiraoriBOT-Md"><img title="Author" src="https://img.shields.io/badge/Author-Ilman-red.svg?style=for-the-badge&logo=github"></a>
-<a href="#"><img title="Library" src="https://img.shields.io/badge/Library-shiraori--baileys-blueviolet.svg?style=for-the-badge&logo=npm"></a>
-</p>
+ShiraoriBOT adalah bot WhatsApp Multi-Device yang dirancang untuk mengelola grup, meningkatkan interaksi pengguna, dan memberikan respon cepat dengan fitur yang cukup lengkap. Bot ini menyatukan sistem RPG, ekonomi, downloader, stiker, hingga alat owner dalam satu ekosistem yang bisa dikembangkan lebih lanjut.
 
-<p align="center">
-<a href="https://github.com/ilmanhdyt/ShiraoriBOT-Md"><img title="Followers" src="https://img.shields.io/github/followers/ilmanhdyt?color=blue&style=flat-square"></a>
-<a href="https://github.com/ilmanhdyt/ShiraoriBOT-Md"><img title="Stars" src="https://img.shields.io/github/stars/ilmanhdyt/ShiraoriBOT-Md?color=red&style=flat-square"></a>
-<a href="https://github.com/ilmanhdyt/ShiraoriBOT-Md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/ilmanhdyt/ShiraoriBOT-Md?color=red&style=flat-square"></a>
-<a href="https://github.com/ilmanhdyt/ShiraoriBOT-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ilmanhdyt/ShiraoriBOT-Md?label=Watchers&color=blue&style=flat-square"></a>
-</p>
+## Disclaimer
 
----
+**PENTING**: ShiraoriBOT disediakan untuk keperluan edukasi, personal, dan pengembangan pribadi. Pastikan kamu:
 
-> ⚠️ **DISCLAIMER**
->
-> ShiraoriBOT dibangun sebagai **kerangka bot WhatsApp yang sudah berisi banyak fitur siap pakai** (RPG, ekonomi, game, downloader, stiker, dan tools owner), bukan sekadar "bot kosong".
-> Meski begitu, project ini tetap terbuka untuk dikembangkan lebih jauh — silakan tambah, ubah, atau hapus plugin sesuai kebutuhan kamu sendiri.
+- Menggunakan secara bertanggung jawab dan tidak spam atau mengganggu pengguna lain.
+- Menjaga privasi data pengguna dan tidak menyalahgunakan informasi yang diterima.
+- Tidak menggunakan untuk tujuan komersial tanpa izin yang jelas.
+- Mematuhi aturan dan regulasi yang berlaku di wilayah kamu.
 
----
+Pengembang tidak bertanggung jawab atas penyalahgunaan bot atau konsekuensi yang timbul dari penggunaannya. Pengguna bertanggung jawab penuh atas tindakan mereka sendiri.
 
-# 🤖 ShiraoriBOT — WhatsApp Bot
+> [!CAUTION]
+> WhatsApp dapat membatasi atau memblokir akun yang melanggar kebijakan layanan mereka. Gunakan bot ini dengan risiko yang kamu tanggung sendiri.
 
-ShiraoriBOT adalah bot WhatsApp Multi-Device yang dibangun di atas library **[`shiraori-baileys`](https://www.npmjs.com/package/shiraori-baileys)** — library Baileys kustom milik sendiri, dipadukan secara *hybrid* dengan **[`@whiskeysockets/baileys`](https://github.com/WhiskeySockets/Baileys)** resmi melalui *compatibility layer* (`lib/baileys-compat.js`). Pendekatan ini memungkinkan bot tetap memakai fitur-fitur terbaru dari Baileys resmi, sekaligus mendapat utilitas tambahan dan beberapa perbaikan khusus dari `shiraori-baileys` — terutama untuk resolusi **LID (Linked ID)** WhatsApp yang sering bikin pusing developer bot lain.
+## Kenapa ShiraoriBOT?
 
-[Coba Bot Nya](https://wa.me/6281362640152)
+ShiraoriBOT menggabungkan beberapa kemampuan dalam satu pengalaman bot:
 
-#### Join Group
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CKYb50fuGk22r3LSTmhb37?s=cl&p=a&ilr=1) 
+- Alat manajemen grup dan komunitas untuk admin.
+- Sistem ekonomi dengan saldo, kerja, hadiah harian, inventori, dan leaderboard.
+- Beragam fitur hiburan dan utilitas seperti downloader, stiker, dan tools owner.
+- Arsitektur plugin yang memudahkan penambahan fitur baru.
 
-[SALURAN](https://whatsapp.com/channel/0029VbCv8hvIyPtQv7Lkfm2U) 
----
+## Fitur
 
-## ✨ Fitur
+### Fitur Teknis
 
-Bot ini memiliki **70+ command** yang tersebar di berbagai kategori, ditambah beberapa sistem otomatis yang berjalan di balik layar. Ketik `.menu` di bot untuk daftar lengkap & ter-update sesuai plugin yang aktif.
+- **Cepat dan responsif**: dirancang untuk menjalankan banyak fitur tanpa terlalu banyak overhead.
+- **Modular**: plugin dapat ditambahkan atau diubah dengan mudah.
+- **Sistem izin**: fitur khusus owner/admin dapat dibatasi sesuai kebutuhan.
+- **Auto-save database**: data tersimpan secara berkala untuk mengurangi risiko kehilangan.
+- **Antarmuka kaya emoji**: respons bot lebih menarik dan informatif.
 
-### 🏠 Utama
-| Command | Deskripsi |
-|---|---|
-| `.menu` / `.help` / `.?` | Tampilkan menu & daftar command |
-| `.daftar <nama>.<umur>` / `.register` | Registrasi akun |
-| `.unreg <SN>` | Hapus akun (butuh Serial Number) |
-| `.afk [alasan]` | Set status AFK |
-| `.ktp` | Buat KTP virtual karakter kamu |
-| `.ceksn` / `.mysn` / `.sn` | Cek Serial Number akun |
-| `.expired` | Cek member grup yang masa sewanya habis *(khusus grup)* |
-| `.my` / `.profile` | Lihat profil (sendiri, tag, atau reply) |
+### Kapabilitas Utama
 
-### ⚔️ RPG & Petualangan
-| Command | Deskripsi |
-|---|---|
-| `.adventure` / `.adv` / `.petualangan` | Mulai sesi petualangan |
-| `.dungeon` | Masuk dungeon |
-| `.hunting` / `.hunt` / `.berburu` | Berburu monster/item |
-| `.mancing`, `.mining`, `.kebun`/`.tanam`, `.mulung` | Aktivitas harian (memancing, menambang, berkebun, memulung) |
-| `.gacha` | Gacha item/karakter |
-| `.open legendary` / `.open pet [jumlah]` | Buka box legendary/pet |
-| `.crafting` / `.craft` | Crafting item |
-| `.collect` | Klaim koleksi item |
-| `.equip` / `.unequip` | Pasang/lepas equipment |
-| `.inventori` / `.inv` | Lihat inventory |
-| `.toko` / `.shop`, `.buy <item>`, `.sell <item>` | Belanja & jual item di toko |
-| `.daily`, `.weekly`, `.monthly` | Klaim reward harian/mingguan/bulanan |
-| `.hadiah` | Klaim hadiah event |
-| `.work` / `.kerja` | Kerja untuk dapat koin |
-| `.maling` / `.begal` / `.rampok @user` | Coba curi koin user lain *(cooldown 10 menit)* |
-| `.wanted` / `.riwayatmaling` | Papan buronan & riwayat aksi maling |
-| `.leaderboard` / `.lb [koin/level/pet]` | Papan peringkat |
+- **Manajemen grup**: fitur seperti registrasi pengguna, status AFK, cek profil, dan alat admin.
+- **Sistem RPG & ekonomi**: adventure, dungeon, hunting, daily, weekly, monthly, work, bank, transfer, dan leaderboard.
+- **Downloader & media**: TikTok, Instagram, Pinterest, YouTube, serta GitHub.
+- **Stiker & kreator**: pembuatan stiker, konversi gambar, watermark, dan fitur maker lain.
+- **Tools owner**: manajemen premium, sewa grup, add/remove EXP, add/set money, dan utilitas admin lanjutan.
 
-### 🎰 Game & Judi
-| Command | Deskripsi |
-|---|---|
-| `.game` / `.minigame [easy/medium/hard]` | Tebak gambar dengan tingkat kesulitan |
-| `.hint` | Minta hint saat minigame berjalan |
-| `.slot` | Slot machine |
-| `.blackjack` / `.bj` | Blackjack |
-| `.sabung` / `.cockfight` / `.cf` | Sabung ayam, `.chickenstats` untuk lihat statistik |
+## Prasyarat
 
-### 🏦 Ekonomi
-| Command | Deskripsi |
-|---|---|
-| `.bank` | Info saldo bank |
-| `.dep` / `.deposit <jumlah/all>` | Deposit ke bank |
-| `.wd` / `.withdraw <jumlah/all>` | Tarik dari bank |
-| `.transfer` / `.tf @user <jml>` | Transfer antar rekening bank |
-| `.rob bank` | Rampok bank *(risiko tinggi)* |
-| `.creditcore` | Cek credit score |
-| `.dompet` | Cek dompet/uang cash |
-| `.kirim @user <nominal>` | Kirim koin ke user lain, `.kirim riwayat`/`.kirim top` |
-| `.bansos` | Klaim bantuan sosial harian |
+Sebelum menjalankan ShiraoriBOT secara lokal, pastikan perangkat kamu sudah memiliki:
 
-### 🎨 Stiker & Maker
-| Command | Deskripsi |
-|---|---|
-| `.sticker` / `.s` | Buat stiker dari gambar/video (reply atau kirim langsung) |
-| `.toimage` / `.toimg` | Ubah stiker (webp) jadi gambar |
-| `.brat <teks>` | Stiker gaya *brat*, via API eksternal |
-| `.watermark` / `.setwm <packname>\|<author>` | Ubah watermark stiker default kamu |
-| `.iqc <teks>` | Buat stiker quote ala chat |
-| `.ihh` *(reply pesan sekali-lihat)* | Buka ulang foto/video *view once* |
+### Windows
 
-### 📥 Downloader
-| Command | Deskripsi |
-|---|---|
-| `.tiktok <url>` | Download video TikTok |
-| `.ig` / `.instagram <url>` | Download media Instagram |
-| `.pinterest <query> [jumlah]` | Cari & download gambar Pinterest |
-| `.play <judul/link>` | Download audio YouTube |
-| `.gitclone <url>` | Download repo GitHub sebagai `.zip` |
+- [Node.js](https://nodejs.org/) dan npm
+- [Git](https://git-scm.com/download/win)
+- Terminal bawaan
 
-### 🔧 Tools & Lainnya
-| Command | Deskripsi |
-|---|---|
-| `.ssweb` / `.ss <url> [full \| <w> <h>]` | Screenshot halaman web |
-| `.zodiak <tgl bln thn>` | Cek zodiak dari tanggal lahir |
-| `.menfess <nomor/mention> <pesan>` | Kirim pesan anonim (menfess) |
+### macOS
 
-### ℹ️ Info
-| Command | Deskripsi |
-|---|---|
-| `.ping` | Cek kecepatan respon bot |
-| `.owner` / `.creator` | Kontak owner bot |
-| `.runtime` / `.uptime` | Lama bot online |
-| `.sourcecode` / `.sc` | Link source code |
-| `.report <pesan>` / `.request <pesan>` | Kirim laporan bug/request fitur ke owner |
-| `.limit` | Cek sisa limit harian |
-| `.donasi` | Info donasi |
-| `.infobot` | Info detail bot |
+- [Node.js](https://nodejs.org/) dan npm
+- [Git](https://git-scm.com/download/mac)
+- Terminal bawaan
 
-### 👑 Owner & Admin Tools
-| Command | Deskripsi |
-|---|---|
-| `.ban` / `.unban` | Ban/unban user dari bot |
-| `.addprem` / `.delprem` / `.listprem` | Kelola user premium |
-| `.addsewa <link/id> <hari>` / `.listsewa` / `.delsewa` / `.perpanjang` | Kelola masa sewa bot di grup |
-| `.addexp` / `.delexp` | Tambah/kurangi EXP user |
-| `.addmoney` / `.setmoney` / `.reducemoney` | Kelola koin user |
-| `.listuser` / `.cekuser` / `.totaluser` | Lihat & cari data user terdaftar |
-| `.setlid <nomor> <lid>` / `list` / `hapus` / `cek` | Kelola mapping LID ↔ nomor secara manual |
-| `.jidgrup` | Cek JID grup |
-| `.on` / `.off <opsi>` | Toggle fitur tertentu di grup |
-| `.balasreport` / `.balasrequest <pesan>` | Balas laporan/request dari user |
-| `.pesanotomatis` | Kirim pesan ke nomor/grup tertentu lewat bot |
-| `.restart` | Restart bot |
-| `.boost` | Bersihkan memori bot secara manual |
-| `> kode` / `=> kode` | Eval JavaScript langsung *(advanced, berisiko)* |
+### Linux
 
-### 🛡️ Sistem Otomatis (Background)
-Selain command di atas, ada beberapa sistem yang berjalan otomatis tanpa perlu diketik:
-- **Anti-toxic** — moderasi kata kasar otomatis dengan sistem warning bertingkat
-- **Anti-spam & auto-ban** — deteksi spam command dan ban sementara otomatis
-- **Auto level-up** — notifikasi otomatis saat user naik level
-- **Auto-resolve LID** — deteksi & pemetaan otomatis `@lid` ↔ nomor WhatsApp asli (bagian dari arsitektur `LID_fix`)
-- **Mention guard** — pengecekan status registrasi user yang di-tag pakai `@lid`
-- **Auto-update role** — role user otomatis menyesuaikan level
+- [Node.js](https://nodejs.org/en/download)
+- [Git](https://git-scm.com/install/linux)
+- Terminal bawaan
 
----
+### FFmpeg
 
-## 🛠️ Instalasi
+FFmpeg diperlukan untuk beberapa fitur media dan konversi stiker.
 
-### Persyaratan Sistem
-
-- **[Node.js](https://nodejs.org/en/download)** v18 atau lebih baru
-- **[Git](https://git-scm.com/downloads)**
-- **[FFmpeg](https://ffmpeg.org/download.html)** — dibutuhkan untuk konversi stiker dari video/gambar
-
-> ⚠️ Untuk Windows: pastikan FFmpeg sudah ditambahkan ke **System PATH** setelah instalasi.
-
----
-
-### 🪟 Windows / VPS / RDP
+**Verifikasi instalasi:**
 
 ```bash
-git clone https://github.com/ilmanhdyt/ShiraoriBOT-Md
+node --version
+npm --version
+git --version
+ffmpeg -version
+```
+
+## Quick Start
+
+### 1. Clone repository
+
+```bash
+git clone https://github.com/ilmanhdyt/ShiraoriBOT-Md.git
+cd ShiraoriBOT-Md
+```
+
+### 2. Install dependency
+
+```bash
+npm install
+```
+
+### 3. Konfigurasi lingkungan
+
+Buat file `.env` jika kamu ingin menyimpan konfigurasi environment:
+
+```bash
+# Linux / macOS
+touch .env
+
+# Windows
+> .env
+```
+
+Contoh isi `.env`:
+
+```env
+PAIRING_NUMBER=6281234567890
+OPENAI_KEY=
+GEMINI_KEY=
+TELEGRAM_TOKEN=
+TELEGRAM_CHAT_ID=
+```
+
+### 4. Jalankan bot
+
+```bash
+npm start
+```
+
+### 5. Hubungkan WhatsApp
+
+- Bot akan menampilkan pairing code di terminal.
+- Masuk ke WhatsApp kamu lalu sambungkan perangkat melalui kode pairing.
+- Setelah berhasil, bot siap menerima perintah.
+
+## Konfigurasi
+
+Beberapa pengaturan dapat diatur melalui file [config.js](config.js) dan environment variable.
+
+| Variabel           | Keterangan                                           | Default |
+| ------------------ | ---------------------------------------------------- | ------- |
+| `PAIRING_NUMBER`   | Nomor target untuk pairing saat sesi belum terdaftar | kosong  |
+| `OPENAI_KEY`       | Kunci API OpenAI jika digunakan oleh fitur tertentu  | kosong  |
+| `GEMINI_KEY`       | Kunci API Gemini jika digunakan oleh fitur tertentu  | kosong  |
+| `TELEGRAM_TOKEN`   | Token bot Telegram jika fitur Telegram aktif         | kosong  |
+| `TELEGRAM_CHAT_ID` | ID chat Telegram untuk notifikasi                    | kosong  |
+
+## Struktur Project
+
+Kode utama berada di beberapa folder penting:
+
+| Path                     | Tujuan                                                             |
+| ------------------------ | ------------------------------------------------------------------ |
+| [main.js](main.js)       | Entry point utama dan lifecycle bot                                |
+| [handler.js](handler.js) | Handler pesan dan event WhatsApp                                   |
+| [plugins](plugins)       | Implementasi perintah dan fitur bot                                |
+| [database](database)     | Data lokal bot seperti JSON, cache, dan state                      |
+| [lib](lib)               | Utilitas, adapter, dan helper pendukung                            |
+| [src](src)               | Layer arsitektur baru untuk konteks, queue, scheduler, dan service |
+| [views](views)           | Tampilan web/antarmuka pendukung jika digunakan                    |
+
+## Gambaran Perintah
+
+Bot ini memiliki banyak perintah yang bisa dijalankan langsung di chat. Beberapa contohnya:
+
+- Umum: `.menu`, `.help`, `.ping`, `.owner`, `.runtime`
+- RPG & ekonomi: `.adventure`, `.daily`, `.work`, `.bank`, `.transfer`, `.leaderboard`
+- Media: `.sticker`, `.toimage`, `.play`, `.tiktok`, `.instagram`
+- Owner/admin: `.ban`, `.addprem`, `.addmoney`, `.setmoney`, `.restart`
+
+## Pengembangan
+
+### Menambahkan plugin baru
+
+1. Buat file baru di folder [plugins](plugins).
+2. Ekspor fungsi handler atau module plugin sesuai pola yang sudah ada.
+3. Jalankan bot lagi dan plugin akan dimuat otomatis oleh loader di [main.js](main.js).
+
+Contoh sederhana:
+
+```js
+module.exports = async function (m, context) {
+  await m.reply('Halo dari plugin baru!');
+};
+```
+
+## Keamanan & Privasi
+
+- Data pengguna disimpan secara lokal dalam folder [database](database).
+- Fitur sensitif dibatasi untuk owner/admin.
+- Pastikan session dan credential tidak dibagikan ke publik.
+
+> [!IMPORTANT]
+>
+> 1. Gunakan nomor pribadi yang kamu kendalikan untuk bot.
+> 2. Pastikan koneksi internet stabil.
+> 3. Simpan session dengan aman.
+> 4. Hindari spam perintah agar tidak memicu pembatasan dari WhatsApp.
+
+## Opsi Deploy
+
+### Termux (Android)
+
+```bash
+pkg update && pkg upgrade
+pkg install git nodejs ffmpeg
+git clone https://github.com/ilmanhdyt/ShiraoriBOT-Md.git
 cd ShiraoriBOT-Md
 npm install
 npm start
 ```
 
-Saat pertama kali dijalankan, akan muncul **QR Code** di terminal — scan lewat WhatsApp di ponsel kamu (Linked Devices).
+### VPS / Cloud Hosting
 
----
+ShiraoriBOT juga bisa dijalankan di VPS atau hosting Node.js. Pastikan:
 
-### 📱 Termux (Android)
+1. Mengupload seluruh isi repository.
+2. Menginstall dependency dengan `npm install`.
+3. Menyiapkan environment variable yang dibutuhkan.
+4. Menjalankan bot dengan `npm start`.
 
-```bash
-pkg update && pkg upgrade
-pkg install git nodejs ffmpeg
-git clone https://github.com/ilmanhdyt/ShiraoriBOT-Md
-cd ShiraoriBOT-Md
-npm install
-node main.js
-```
+## Troubleshooting
 
----
+### Bot tidak merespons
 
-### ☁️ Heroku / VPS dengan Buildpack
+- Periksa apakah bot sudah terhubung ke WhatsApp.
+- Pastikan prefix perintah yang dipakai benar.
+- Cek apakah bot ada di grup yang sesuai.
 
-**Install buildpack berikut (urutan penting):**
-1. `heroku/nodejs`
-2. `https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git`
+### Autentikasi gagal
 
-Buat file `Procfile` di root project:
-```
-web: node main.js
-```
+- Hapus session lama jika perlu, lalu jalankan ulang bot.
+- Periksa format nomor pada `PAIRING_NUMBER`.
+- Pastikan koneksi internet stabil.
 
-> Pakai database eksternal (lihat bagian MongoDB di bawah) kalau deploy di platform dengan filesystem sementara seperti Heroku, supaya data user tidak hilang setiap restart/redeploy.
+### Performa menurun
 
----
+- Restart bot jika berjalan lama.
+- Periksa sumber daya server.
+- Pastikan tidak ada proses yang membebani memori secara berlebihan.
 
-### ▲ PM2 / Auto-restart (opsional)
+## Kontribusi
 
-```bash
-npm install -g pm2
-pm2 start main.js --name ShiraoriBOT
-```
+1. Fork repository ini.
+2. Buat branch fitur baru.
+3. Tambahkan perbaikan atau fitur yang kamu buat.
+4. Uji secara menyeluruh.
+5. Kirim pull request.
 
-Atau pakai script bawaan `keep-alive.sh` untuk auto-restart sederhana tanpa PM2:
-```bash
-bash keep-alive.sh
-```
+## Dukungan
 
----
+Untuk issue, pertanyaan, atau kontribusi:
 
-## 🗄️ Database
+- Buka issue di repository.
+- Cek dokumentasi yang ada.
+- Review source code untuk contoh implementasi.
 
-Secara default, ShiraoriBOT memakai database lokal berbasis file JSON (lowdb) di folder `database/`. Tidak perlu setup tambahan untuk mulai memakai bot.
+## Lisensi
 
-Kalau butuh database eksternal (misalnya untuk deploy di platform dengan storage sementara), bot mendukung MongoDB lewat flag `--db`:
-
-```bash
-node main.js --db "mongodb+srv://USER:PASSWORD@cluster0.xxx.mongodb.net/ShiraoriBOT?retryWrites=true&w=majority"
-```
-
-1. Buat akun & database di [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-2. Ambil connection string dari Atlas
-3. Tambahkan ke `Procfile` (untuk Heroku) atau jalankan langsung lewat flag di atas
-
----
-
-## ⚙️ Konfigurasi Dasar
-
-Beberapa hal bisa diatur langsung di `config.js`:
-
-```js
-global.owner   = ['62812xxxxxxxx']      // Nomor owner bot
-global.lokasi  = 'Makassar, Indonesia'  // Lokasi bot (untuk fitur cuaca/lokasi)
-global.namabot = 'ShiraoriBOT'          // Nama bot
-global.wm      = '© ShiraoriBOT-Md'     // Watermark default
-```
-
----
-
-## 🐛 Bug & Kontribusi
-
-- Jika menemukan bug, silakan buka [Issues](https://github.com/ilmanhdyt/ShiraoriBOT-Md/issues)
-- Chat langsung ke [Owner](https://wa.me/6281351047727)
-- Coba bot demo [di sini](https://wa.me/62895803135347?text=.menu)
-
----
-
-## 👨‍💻 Developer
-
-<h3 align="center">Made by:</h3>
-<p align="center">
-  <a href="https://github.com/ilmanhdyt"><img src="https://github.com/ilmanhdyt.png?size=128" height="128" width="128" /></a>
-</p>
-
----
-
-## 🙏 Thanks To
-
-| [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ilman](https://github.com/ilmanhdyt.png?size=100)](https://github.com/ilmanhdyt) | [![Istikmal](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming) |
-|:---:|:---:|:---:|
-| [Nurutomo](https://github.com/Nurutomo) | [Ilman](https://github.com/ilmanhdyt) | [Istikmal](https://github.com/BochilGaming) |
-| Author Utama | Pengembang Fitur | Pemilik Source Code |
-
----
-
-## 💸 Donasi
-
-Jika project ini bermanfaat, kamu bisa support developer melalui:
-
-- [Saweria](https://saweria.co/ilmanhdyt)
+Proyek ini menggunakan [MIT License](LICENSE).
 
 ---
 
 <p align="center">
-  <b>⭐ Jangan lupa kasih star kalau project ini membantu kamu! ⭐</b><br/>
-  <i>ShiraoriBOT — Powered by shiraori-baileys</i>
+  <b>⭐ Jangan lupa kasih star kalau project ini membantu kamu! ⭐</b><br />
+  <i>ShiraoriBOT | Powered by shiraori-baileys</i>
 </p>
